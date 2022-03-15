@@ -1,5 +1,6 @@
 # Github page med overblik over DD Labs udstyr og Faciliteter
 Dette er et en github page med et overblik over tilgængeligt udstyr og tilgængelige faciliteter i DD Lab.
+Link: https://ddlabau.github.io/faciliteter-og-udstyr/
 
 ## Guide for ansatte
 Her er en guide til at tilføje udstyr eller faciliteter til siden.
