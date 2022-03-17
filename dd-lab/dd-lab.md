@@ -33,7 +33,7 @@ txtFile.onload = function() {
           if(elements[1].includes("http")){
             document.getElementById("tabelsetup").innerHTML += '<br/><table><tr><td width="50%">' + '<img src="' + elements[1] + '" alt="' + elements[0] + '"' + 'style="width: 200px;" /></td> <td width="50%"><p>' + elements[2] + '<br/><b>' + elements[3]; + '</b></p></td></tr></table><br/>';
           } else {
-            document.getElementById("tabelsetup").innerHTML += '<br/><table><tr><td width="50%">' + '<img src="/images/' + elements[1] + '" alt="' + elements[0] + '"' + 'style="width: 200px;" /></td> <td width="50%"><p>' + elements[2] + '<br/><b>' + elements[3]; + '</b></p></td></tr></table><br/>';
+            document.getElementById("tabelsetup").innerHTML += '<br/><table><tr><td width="50%">' + '<img src="images/' + elements[1] + '" alt="' + elements[0] + '"' + 'style="width: 200px;" /></td> <td width="50%"><p>' + elements[2] + '<br/><b>' + elements[3]; + '</b></p></td></tr></table><br/>';
           }
         }
 
