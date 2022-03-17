@@ -3,7 +3,7 @@ theme: jekyll-theme-minimal
 title: "Audiodesign"
 permalink: /audiodesign/
 ---
-# Audiodesign Udstyr og Faciliteter
+# Audiodesign Faciliteter og Udstyr
 
 ## Indhold
 

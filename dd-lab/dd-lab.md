@@ -3,7 +3,7 @@ theme: jekyll-theme-minimal
 title: "Digital Design og Informationsvidenskab"
 permalink: /dd-lab/
 ---
-# DD Lab Udstyr og faciliteter
+# DD Lab Faciliteter og Udstyr
 
 ## Kategorier
 
