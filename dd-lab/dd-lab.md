@@ -3,7 +3,7 @@ theme: jekyll-theme-minimal
 title: "Digital Design og Informationsvidenskab"
 permalink: /dd-lab/
 ---
-# DD Lab Faciliteter og Udstyr -test
+# DD Lab Faciliteter og Udstyr
 
 ## Kategorier
 
@@ -32,7 +32,7 @@ txtFile.onload = function() {
           if(elements[1].includes("http")){
             document.getElementById("tabelsetup").innerHTML += '<br/><table><tr><td width="50%">' + '<img src="' + elements[1] + '" alt="' + elements[0] + '"' + 'style="width: 200px;" /></td> <td width="50%"><p>' + elements[2] + '<br/><b>' + elements[3]; + '</b></p></td></tr></table><br/>';
           } else {
-            document.getElementById("tabelsetup").innerHTML += '<br/><table><tr><td width="50%">' + '<img src="assets/dd-lab/' + elements[1] + '" alt="' + elements[0] + '"' + 'style="width: 200px;" /></td> <td width="50%"><p>' + elements[2] + '<br/><b>' + elements[3]; + '</b></p></td></tr></table><br/>';
+            document.getElementById("tabelsetup").innerHTML += '<br/><table><tr><td width="50%">' + '<img src="/assets/dd-lab/' + elements[1] + '" alt="' + elements[0] + '"' + 'style="width: 200px;" /></td> <td width="50%"><p>' + elements[2] + '<br/><b>' + elements[3]; + '</b></p></td></tr></table><br/>';
           }
         }
 
