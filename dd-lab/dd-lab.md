@@ -4,7 +4,7 @@ title: "Digital Design og Informationsvidenskab"
 permalink: /dd-lab/
 ---
 
-# DD Lab Faciliteter og Udstyr -test3
+# DD Lab Faciliteter og Udstyr -test4
 
 ## Kategorier
 
