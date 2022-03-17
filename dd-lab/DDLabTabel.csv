@@ -1,5 +1,6 @@
 ﻿Titel;Billede;Kommentar;Udlån
 overskrift;3D Printere;-;-
+Formlabs Form 3;https://formlabs-media.formlabs.com/filer_public_thumbnails/filer_public/03/fe/03feba49-b2c3-497d-9e91-5c8c246ce115/form3_plus.png__640x0_q85_subsampling-2.png;Resin 3D printer;Kan benyttes i DD Lab
 PRUSA I3 MK3S+ 3D PRINTER;https://cdn.prusa3d.com/content/images/product/default/3325.jpg;3D filament printer.;Kan benyttes i DD Lab
 Ultimaker 3 Extended;https://facilities.create.aau.dk/wp-content/uploads/Ultimaker_3_Extended_1_3D_Printer-682x1024.png;3D filament printer.;Kan benyttes i DD Lab
 Ultimaker 3;https://images.ctfassets.net/7cnpidfipnrw/1SC74VDuyQTUS2hz5mZcgL/88824829fad6c0314be36fe2f771cf9b/Ultimaker-3-3D-printer-hero.png?fm=webp&w=2048;3D filament printer.;Kan benyttes i DD Lab
@@ -25,6 +26,11 @@ overskrift;Mikrofoner;-;-
 RØDE Blimp m. Extension (t. NTG-8);https://cvp.com/images/products/altimage/31-07-20171501494984blimp-front-side.jpg;Med pels og adapter-kabel.;Kan lånes fra DD Lab
 LeWitt LCT 540 S;https://dt7v1i9vyp3mf.cloudfront.net/styles/header/s3/imagelibrary/l/lewitt-540sz_01-4WWipsknk1P9ULWWqkDOfMBn1lR60cFp.jpg;Stor membran mikrofon Inklusiv Shockmount, Carrycase etc.;Kan lånes fra DD Lab
 Studio Six Digital iTestMic2;https://studiosixdigital.com/_Media/itestmic2-banner-cmyk_med.png;iOS kompatibel måle mikrofon;Kan lånes fra DD Lab
+overskrift;Motion tracking teknologier;-;-
+Vive HTC 3D Google;https://m.media-amazon.com/images/I/51xetJlV6OS._SL1500_.jpg;Virtual Reality headset. Kan benyttes med setuppet i glasburet;Kan lånes fra DD Lab
+Oculus Quest 2;https://scontent-arn2-1.xx.fbcdn.net/v/t39.8562-6/251556803_1101500973928494_7730272277611006855_n.png?_nc_cat=109&ccb=1-5&_nc_sid=6825c5&_nc_ohc=uZ0dqxIlGB0AX-qJv3D&_nc_ht=scontent-arn2-1.xx&oh=00_AT-VoXQR3eZCmYV0vSzOYF3JmOxgwqw9PqrM7lcfu55yfg&oe=62387C7D;Virtual reality headset.;Kan lånes fra DD Lab
+Oculus Rift DK2;https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.extremetech.com%2Fwp-content%2Fuploads%2F2014%2F03%2Foculus-rift-dk2.jpg&f=1&nofb=1;Virtual reality headset.;Kan lånes fra DD Lab
+Kinect for Xbox One;https://m.media-amazon.com/images/I/51d5c7AYhRL._AC_SX679_.jpg;;Kan lånes fra DD Lab
 overskrift;Projektorer;-;-
 BenQ MH733;https://image.benq.com/is/image/benqco/01-mh733-front30?$ResponsivePreset$&fmt=png-alpha;;Kan lånes fra DD Lab
 Dell M318WL;https://i.dell.com/images/global/products/proj/proj_highlights/projector-m318wl-overview1.jpg;Mini projektor;Kan lånes fra DD Lab
@@ -50,7 +56,4 @@ overskrift;Andet;-;-
 LaCie 5T USB-C/Thunderbolt Drive;https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/HNY12?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1595971704000;Bærbar Harddisk;Kan lånes fra DD Lab
 Parrot A.R.Drone 2.0;https://m.media-amazon.com/images/I/51ffvumBsEL._AC_SX450_.jpg;Drone;Kan lånes fra DD Lab
 Structure Sensor;https://structure.io/static/occipital/images/v2/structure-sensor-pro/renders/st02b-partipad-angle.png; Til 3D scanning og augmented reality. Fungerer sammen med iPad, som DD Lab har. Fungerer også sammen med Skanect Pro-software.;Kan lånes fra DD Lab
-Vive HTC 3D Google;https://m.media-amazon.com/images/I/51xetJlV6OS._SL1500_.jpg;Virtual Reality briller. Kan benyttes med setuppet i glasburet;Kan lånes fra DD Lab
-Kinect for Xbox One;https://m.media-amazon.com/images/I/51d5c7AYhRL._AC_SX679_.jpg;;Kan lånes fra DD Lab
-Oculus Rift DK2;https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.extremetech.com%2Fwp-content%2Fuploads%2F2014%2F03%2Foculus-rift-dk2.jpg&f=1&nofb=1;;Kan lånes fra DD Lab
 Bernina Symaskine;https://www.naaimachine-onderdelen.eu/assets/cache/data/fotos/naaimachines/bernina/215-cr-750x750.jpg;Symaskine;Kan benyttes i DD Lab
