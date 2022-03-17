@@ -3,8 +3,12 @@ theme: jekyll-theme-minimal
 title: "Digital Design og Informationsvidenskab"
 permalink: /dd-lab/
 ---
+<<<<<<< Updated upstream
 
 # DD Lab Faciliteter og Udstyr -test4
+=======
+# DD Lab Faciliteter og Udstyr -test3
+>>>>>>> Stashed changes
 
 ## Kategorier
 
