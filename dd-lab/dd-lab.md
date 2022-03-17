@@ -29,7 +29,11 @@ txtFile.onload = function() {
           document.getElementById("tabelsetup").innerHTML += '<br/><h1 id=' + i + '><u>' + elements[1] + '</u></h1>';
         } else {
           document.getElementById("tabelsetup").innerHTML += '<h3>' + elements[0] + '</h3>';
-          document.getElementById("tabelsetup").innerHTML += '<br/><table><tr><td width="50%">' + '<img src="' + elements[1] + '" alt="' + elements[0] + '"' + 'style="width: 200px;" /></td> <td width="50%"><p>' + elements[2] + '<br/><b>' + elements[3]; + '</b></p></td></tr></table><br/>';
+          if(elements[1].contains("http")){
+            document.getElementById("tabelsetup").innerHTML += '<br/><table><tr><td width="50%">' + '<img src="' + elements[1] + '" alt="' + elements[0] + '"' + 'style="width: 200px;" /></td> <td width="50%"><p>' + elements[2] + '<br/><b>' + elements[3]; + '</b></p></td></tr></table><br/>';
+          } else {
+            document.getElementById("tabelsetup").innerHTML += '<br/><table><tr><td width="50%">' + '<img src="assets/dd-lab/' + elements[1] + '" alt="' + elements[0] + '"' + 'style="width: 200px;" /></td> <td width="50%"><p>' + elements[2] + '<br/><b>' + elements[3]; + '</b></p></td></tr></table><br/>';
+          }
         }
 
     }
