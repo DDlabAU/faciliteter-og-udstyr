@@ -1,75 +1,46 @@
 ﻿Titel;Billede;Kommentar;Udlån
-overskrift;3D Printere og Scannere;-;-
-PRUSA I3 MK3S+ 3D PRINTER;https://cdn.prusa3d.com/content/images/product/default/3325.jpg;3D filament printer.;Kan benyttes i DD Lab
-Ultimaker 3 Extended;https://facilities.create.aau.dk/wp-content/uploads/Ultimaker_3_Extended_1_3D_Printer-682x1024.png;3D filament printer.;Kan benyttes i DD Lab
-Ultimaker 3;https://images.ctfassets.net/7cnpidfipnrw/1SC74VDuyQTUS2hz5mZcgL/88824829fad6c0314be36fe2f771cf9b/Ultimaker-3-3D-printer-hero.png?fm=webp&w=2048;3D filament printer.;Kan benyttes i DD Lab
-Formlabs Form 3;form3.png;Resin 3D printer;Kan benyttes i DD Lab
-Formlabs Form Wash;formWash.jpeg;Alkohol vaskemaskine til resin-modeller;Kan benyttes i DD Lab
-Formlabs Form Cure;formCure.png;Post-cure ved UV lys til resin-modeller;Kan benyttes i DD Lab
-Creaform ACADEMIA 3D scanner;creaformAcademia.PNG;Professional-grade 3D scanner;Kan lånes fra DD Lab
-Structure Sensor;https://structure.io/static/occipital/images/v2/structure-sensor-pro/renders/st02b-partipad-angle.png; Til 3D scanning og augmented reality. Fungerer sammen med iPad, som DD Lab har. Fungerer også sammen med Skanect Pro-software.;Kan lånes fra DD Lab
-overskrift;Audiooptagere;-;-
-Olympus Linear Recorder LS-P2;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWZ46Y1m7Mzl_yaK5nYZgPriTFCXXwq49ccESdiKzAInvmvzxQThqyg3pHb4kHj9O3jpo&usqp=CAU; ;Kan lånes fra DD Lab
-Olympus LS-14 Linear PCM Recorder;https://m.media-amazon.com/images/I/8196ncKQTbL._AC_SL1500_.jpg;Inklusiv pose, usb-kabel, vindhætte og stand;Kan lånes fra DD Lab
-Marantz PMD620 recorder;https://cdn.mos.cms.futurecdn.net/55181d9f9d9b8e3e575069586f570bdf-1200-80.jpg; ;Kan lånes fra DD Lab
-overskrift;CNC maskiner;-;-
-Carvey;http://carvey-instructions.inventables.com/carvey_main.jpg;Lille CNC-fræser;Kan benyttes i DD Lab
-X-carve;https://d2rhdy377k7eul.cloudfront.net/assets/homepage/xcarve_25_preconfigured-2c82e6112505dd2da249b41a1540055867e2c4b0977895609475c563c82b54df.jpg;Stor CNC-fræser;Kan benyttes i DD Lab
-eduART lasercutter;https://usercontent.one/wp/www.eduard.dk/wp-content/uploads/2019/07/eduART-x750-350x263.jpg;Lasercutter;Kan benyttes i DD Lab
-Voltera V-One PCB Printer;VolteraVOne.png;Print af egne printplader;Kan benyttes i DD Lab
-K´N´K Maxx Air 24 Vinylcutter;http://www.createncraft.com/wp-content/uploads/2015/09/MAXX-Air-KNK.png;Vinylcutter;Kan benyttes i DD Lab
-AxiDraw SE/A3 Plotter;https://cdn.evilmadscientist.com/sites/axidraw/sea3_1920c.jpg;The AxiDraw is a simple, modern, precise, and versatile pen plotter, capable of writing or drawing on almost any flat surface. It can write with your favorite fountain pens, permanent markers, and other writing implements to handle an endless variety of applications.;Kan benyttes i DD Lab
-overskrift;Kameraer;-;-
-GoPro Hero 5+;https://static.gopro.com/aem/en/us/out-of-the-box-experience/hero-5/images/H5B_Mobile_Lockup.png;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
-GoPro Hero 3+;https://www.elgiganten.dk/image/dv_web_D180001002296703/GOPROHER3PSIL/gopro-hero-3-silver-edition-action-kamera--pdp_zoom-3000--pdp_main-540.jpg;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
-Olympus Digital Camera FE-270;https://i0.wp.com/camerausermanual.net/wp-content/uploads/2018/03/Olympus-FE-270-Manual-camera-front-and-rear-side.jpg?ssl=1;Digital Kamera;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
-Panasonic AVCH 3CCD AG-HMC71E HD;https://www.spectratech.gr/Web/Panasonic/www/AG-HMC71E.jpg;Videokamera;Kan lånes fra DD Lab
-Canopus ADVC110 DV-Converter;https://cvp.com/images/products/altimage/04%2001%2020081199438060ADVC110-500.jpg;Bi-directional analogue to DV converter. Use ADVC110 to connect all analogue and digital video cameras, decks and editing systems.;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+overskrift;Audio Interfaces;-;-
+Apogee One Ver 1. for Mac/iPad;apogeeOne.jpg;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+Behringer ADA 8200;ADA8200.jpg;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+Behringer ADA 8000;ADA8000.png;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+cymatic audio uTrack 24;cymaticAudioUtrack24.png;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+IK iRig Stomp;IKiRigStomp.png;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+M-Audio USB Mobile PRE;MAudioMobilePre.jpg;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+RME Babyface PRO USB interface;RME-BABYFACE_PRO.jpg;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+Tascam US-1800;TascamUS1800.jpg;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+overskrift;Audio Mixers;-;-
+Zoom F-Control FRC-8;ZoomF-Control.jpg;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+overskrift;Audio optagere;-;-
+Sony PCM-D50 Recorder;PCM-D50.jpg;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+Sound Devices 722 HD;soundDevices.jpg;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+SoundDevices MixPre-3;soundDevicesMixpre3.jpg;Inklusiv Anker Powerbank, Batteri-case, USB-c kabel, USBc->db USB etc.  ;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+SoundDevices MixPre-6;soundDevicesMixpre6.jpg;Inklusiv Anker Powerbank, Batteri-case, USB-c kabel, USBc->db USB etc.;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+Tascam DR-680 8 track Recorder;TascamDR-680.jpg;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+Zoom F4 Multitrack Field Recorder m Phantom power;ZoomF4Multitrack.jpg;Med egen transport taske og strømforsyning samt 2*32Gb ssd kort i, samt Zoom EXH-6 ch. 5 + 6 external input adapter og HECBOX HED-BP95D rechargeable li-on 14.4v battery system.;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+Zoom F6;ZoomF6.jpg;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+Zoom F8n;ZoomF8n.jpg;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+Zoom H3-VR Handy Recorder;zoomh3VR.jpg;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+Zoom H6 Handy Recorder;zoom_h6.jpg; Med tilhørende MSH-6 + XYH-6 Stereo Mics;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+overskrift;ENG udstyr;-;-
+Azden FMX-42 ENG Mixer;azdenFMX.jpg;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+Beyer Dynamic DT 150 Headphones;BeyerDynamicsDT150.jpg;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+Beyer Dynamics DT 770 PRO Headphones;beyerDynamicsDT770.PNG;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+Reinhardt Soft Zep III;ReinhardtSoftZep.PNG;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+Reinhardt Soft Zep m Rainshield;ReinhardtSoftZepRain.PNG;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+Reinhardt Soft-Zep Mikrofon Windshield;ReinhardtSoftZepRain.PNG;Inklusiv regnskærm;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+Rycote Semi-size Windshield;RycoteWindshield.PNG;Inklusiv Shock-absorb handle and Rainshield;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+Rycote Zeppeliner m Windshield;RycoteZepWind.PNG;"Til 15"" mic´s";Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+Rycote Zeppeliner w. Shock-mount absorption;RycoteZeppeliner.jpg;Til Neumann usm69i;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+Soundman Windshield;SoundmanWind.png;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+TELINGA UNIVERSAL MK2 Kit;telingaMK2.png;Parabol mikrofon-mount kit (minus mic) inklusiv Parabolskærm, Handle og Transport-etui;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+overskrift;Forstærkere og Højtalere;-;-
+AUDAC DPA616 16 kanals forstærker;AUDACDPA616.jpg;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+Focusonics Parametric Speaker;focusonicsParametric.PNG;Retningsbestemt højtaler m. separat amp.;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+Mackie 624 Active Monitors;Mackie624.jpeg;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+overskrift;Instrumenter;-;-
+;;;
 overskrift;Mikrofoner;-;-
-RØDE Blimp m. Extension (t. NTG-8);https://cvp.com/images/products/altimage/31-07-20171501494984blimp-front-side.jpg;Med pels og adapter-kabel.;Kan lånes fra DD Lab
-LeWitt LCT 540 S;https://dt7v1i9vyp3mf.cloudfront.net/styles/header/s3/imagelibrary/l/lewitt-540sz_01-4WWipsknk1P9ULWWqkDOfMBn1lR60cFp.jpg;Stor membran mikrofon Inklusiv Shockmount, Carrycase etc.;Kan lånes fra DD Lab
-Studio Six Digital iTestMic2;https://studiosixdigital.com/_Media/itestmic2-banner-cmyk_med.png;iOS kompatibel måle mikrofon;Kan lånes fra DD Lab
-overskrift;Motion tracking teknologier;-;-
-Vive HTC 3D Google;https://m.media-amazon.com/images/I/51xetJlV6OS._SL1500_.jpg;Virtual Reality headset. Kan benyttes med setuppet i glasburet;Kan lånes fra DD Lab
-Oculus Quest 2;oculusQuest2.jpeg;Virtual reality headset.;Kan lånes fra DD Lab
-Oculus Rift DK2;https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.extremetech.com%2Fwp-content%2Fuploads%2F2014%2F03%2Foculus-rift-dk2.jpg&f=1&nofb=1;Virtual reality headset.;Kan lånes fra DD Lab
-Kinect for Xbox One;https://m.media-amazon.com/images/I/51d5c7AYhRL._AC_SX679_.jpg;;Kan lånes fra DD Lab
-overskrift;Projektorer;-;-
-BenQ MH733;https://image.benq.com/is/image/benqco/01-mh733-front30?$ResponsivePreset$&fmt=png-alpha;;Kan lånes fra DD Lab
-Dell M318WL;https://i.dell.com/images/global/products/proj/proj_highlights/projector-m318wl-overview1.jpg;Mini projektor;Kan lånes fra DD Lab
-Optoma DX733;https://cdn.mos.cms.futurecdn.net/c4ca365999e0c4480249358d9734f960.jpg; ;Kan lånes fra DD Lab
-ASK Proxima C350;https://www.projectorcentral.com/img.cfm?pid=3936; ;Kan lånes fra DD Lab
-Acer P 5370W Projektor;https://www.projectorcentral.com/img.cfm?pid=4241; ;Kan lånes fra DD Lab
-overskrift;Værktøj;-;-
-Bacho Topnøglesæt;https://pimdatacdn.bahco.com/media/sub376/177904009aee8b3f.png;;Kan benyttes i DD Lab. (<a href='mailto:ddlabau@gmail.com'>Skriv en mail til DD Lab</a> for at anmode om udlån.)
-Bosch GAM 22 MF Digital Vinkelmåler;https://m.media-amazon.com/images/I/71B9un6evML._AC_SL1500_.jpg;Digital Vinkelmåler;Kan lånes fra DD Lab
-Bosch GLM 30 + 40 Lasermåler;https://www.bosch-professional.com/ocs/ao/en/ocsmedia/337111-54/application-image/1434x828/laser-measure-glm-40-0601072900.png;Laser afstandsmåler;Kan lånes fra DD Lab
-Bosch Quigo Green Laser Krydsmåler;https://www.bosch-diy.com/imagestorage/fr-fr/outils-de-mise-a-niveau-2680181-hires-png-rgb-oneux-357351_w_750_h_421.png;Krydsmåler;Kan lånes fra DD Lab
-Weller loddekolbe;https://media-weller.de/weller/data/Weller%20Semi/images/SP40N.jpg;Loddekolbe;Kan benyttes i DD Lab. (<a href='mailto:ddlabau@gmail.com'>Skriv en mail til DD Lab</a> for at anmode om udlån.)
-Loddekolbe, ZD-937;https://cdn1.botland.store/60997-large_default/soldering-station-zd-937-48w.jpg;Loddekolbe;Kan benyttes i DD Lab. (<a href='mailto:ddlabau@gmail.com'>Skriv en mail til DD Lab</a> for at anmode om udlån.)
-Loddestation, LF-389D, Xytronic;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSnR7ATp3M6W-N36k6sUZvtI5bEG6oQGLwuw&usqp=CAU;Loddestation;Kan benyttes i DD Lab. (<a href='mailto:ddlabau@gmail.com'>Skriv en mail til DD Lab</a> for at anmode om udlån.)
-BGS 2192 Tools Pocket Size Digital Multimeter;BGS292.jpg;Mini Multimeter;Kan lånes fra DD Lab
-Mastech MS8264 Multimeter;https://mastech-group.com/datas/upload/finder/files/20210928154310659.png;Multimeter;Kan lånes fra DD Lab
-Amprobe 5XP-A;https://www.amprobe.com/wp-content/uploads/2019/08/PD_15XP-1.jpg;Multimeter;Kan lånes fra DD Lab
-RYOBI RRT1600 Overfræser;https://static.ryobitools.eu/remote.axd/ryobi-media-images.s3.amazonaws.com/hi/RRT1600-K--Hero_1.jpg?v=7FB9E50E4DEC3912C57FACB4A110C47E;Overfræser;Kan benyttes i DD Lab. (<a href='mailto:ddlabau@gmail.com'>Skriv en mail til DD Lab</a> for at anmode om udlån.)
-Bosch GCM 12 GDL Kap og Gerings-sav;https://www.bosch-professional.com/ocs/dk/da/ocsmedia/368167-16/dimensional-drawing-image/767x767/kap-og-geringssav-gcm-12-gdl-0601b23600.jpg;;Kan benyttes i DD Lab
-Ryobi R18CS7-0 Akku Rundsav;https://cdn.cdon.com/media-dynamic/images/product/cloud/store/PoerSas/000/088/385/257/88385257-157097566-11453-org.jpg?cache=132826280326260141&impolicy=product&imwidth=600;Rundsav;Kan benyttes i DD Lab
-Festool TS 75 EBQ Dyksav ;https://festoolcdn.azureedge.net/productmedia/Images/jpg_large/0633315d-24b4-11e5-80cf-005056b31774_800_533.jpg;Dyksav inklusiv kasse, diamant-klinge, 2 festool grips;Kan benyttes i DD Lab
-Proxxon Fræse-modul;proxxonBFW40e.jpg;Proxxon BFW 40/E;Kan benyttes i DD Lab
-Proxxon micromot Søjlebor;proxxonTBM220.png;Proxxon micromot TBM 220;Kan benyttes i DD Lab
-Proxxon micromot Stiksav;proxxonstiksav.jpeg;;Kan benyttes i DD Lab
-Proxxon micromot Båndsliber;proxxonBåndSliber.jpeg;;Kan benyttes i DD Lab
-Dremel 9000;dremel9000.jpg;Multifunktionsværktøj med mange forskellige hoveder;Kan benyttes i DD Lab
-Dremel kompaktsav DSM20;dremelDSM20.jpg;Kompaktsav med diverse klinger;Kan benyttes i DD Lab
-Bosch Stiksav;boschPST900PEL.png;Bosch pendulstiksav PST 900 PEL;Kan benyttes i DD Lab
-Bosch Sliber;boschSliber.jpg;Bosch multisliber PSM 160 A;Kan benyttes i DD Lab
-Bosch Fræser;boschPOF1200AE.jpeg;Bosch fræser POF 1200 AE;Kan benyttes i DD Lab
-Bosch slagboremaskine;boschHammerDrill.PNG;Bosch drill/Hammer;Kan benyttes i DD Lab
-Bosch Akku IXO;boschAkkuIXO.jpeg;Lille skruemaskine;Kan benyttes i DD Lab
-Seeed DSO Quad Scope;seeedDSOQuad.PNG;Oscilloscop;Kan benyttes i DD Lab
-Seeed DSO Nano V3 Scopes;SeeedDSONanoV3.jpg;Oscilloscop;Kan benyttes i DD Lab
+overskrift;Preamps;-;-
+overskrift;Instrumenter;-;-
 overskrift;Andet;-;-
-LaCie 5T USB-C/Thunderbolt Drive;https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/HNY12?wid=1144&hei=1144&fmt=jpeg&qlt=95&.v=1595971704000;Bærbar Harddisk;Kan lånes fra DD Lab
-Parrot A.R.Drone 2.0;https://m.media-amazon.com/images/I/51ffvumBsEL._AC_SX450_.jpg;Drone;Kan lånes fra DD Lab
-Bernina Symaskine;https://www.naaimachine-onderdelen.eu/assets/cache/data/fotos/naaimachines/bernina/215-cr-750x750.jpg;Symaskine;Kan benyttes i DD Lab
-M-Audio BX6 Aktiv Speakere;https://m.media-amazon.com/images/I/51NuMY89wdL._AC_SX425_.jpg;;Kan lånes fra DD Lab
+Røde Caster PRO;ROEDECasterPro.jpg;All-In-One Podcast System;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
