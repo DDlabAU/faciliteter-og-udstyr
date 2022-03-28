@@ -41,7 +41,7 @@ txtFile.onload = function() {
     }
 }
 
-txtFile.open("get", "AudiodesignTabel.csv", true);
+txtFile.open("get", "AudiodesignTabelTest.csv", true);
 txtFile.send();
 </script>
 
