@@ -3,6 +3,8 @@ theme: jekyll-theme-minimal
 title: "Digital Design og Informationsvidenskab"
 permalink: /dd-lab/
 ---
+<a name="top"></a>
+
 # DD Lab Faciliteter og Udstyr
 
 ## Kategorier
@@ -42,3 +44,5 @@ txtFile.onload = function() {
 txtFile.open("get", "DDLabTabel.csv", true);
 txtFile.send();
 </script>
+
+<a href="#top">Gå til toppen</a>
