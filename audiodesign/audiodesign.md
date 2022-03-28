@@ -3,6 +3,8 @@ theme: jekyll-theme-minimal
 title: "Audiodesign"
 permalink: /audiodesign/
 ---
+<a name="top"></a>
+
 # Audiodesign Faciliteter og Udstyr
 
 ## Indhold
@@ -42,3 +44,5 @@ txtFile.onload = function() {
 txtFile.open("get", "AudiodesignTabel.csv", true);
 txtFile.send();
 </script>
+
+<a href="#top">Gå til toppen</a>
