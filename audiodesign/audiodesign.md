@@ -7,7 +7,7 @@ permalink: /audiodesign/
 
 # Audiodesign Faciliteter og Udstyr
 
-## Indhold
+## Kategorier
 
 <section id="tabelsetup"></section>
 
