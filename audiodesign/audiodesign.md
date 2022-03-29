@@ -39,7 +39,6 @@ txtFile.onload = function() {
             document.getElementById("tabelsetup").innerHTML += '<br/><table><tr><td width="50%"></td><td width="50%"><p>' + elements[2] + '<br/><b>' + elements[3]; + '</b></p></td></tr></table><br/>';
           }
         }
-
     }
 }
 
