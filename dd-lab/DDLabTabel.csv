@@ -3,7 +3,7 @@ overskrift;3D Printere og Scannere;-;-
 PRUSA I3 MK3S+ 3D PRINTER;https://cdn.prusa3d.com/content/images/product/default/3325.jpg;3D filament printer.;Kan benyttes i DD Lab
 Ultimaker 3 Extended;https://facilities.create.aau.dk/wp-content/uploads/Ultimaker_3_Extended_1_3D_Printer-682x1024.png;3D filament printer.;Kan benyttes i DD Lab
 Ultimaker 3;https://images.ctfassets.net/7cnpidfipnrw/1SC74VDuyQTUS2hz5mZcgL/88824829fad6c0314be36fe2f771cf9b/Ultimaker-3-3D-printer-hero.png?fm=webp&w=2048;3D filament printer.;Kan benyttes i DD Lab
-Formlabs Form 3;form3.png;Resin 3D printer;Kan benyttes i DD Lab
+Formlabs Form 3;form3.png;Resin 3D printer;Kan benyttes i DD Lab. KRÆVER KØREKORT FOR AT FÅ TILLADELSE TIL AT BENYTTE!
 Formlabs Form Wash;formWash.jpeg;Alkohol vaskemaskine til resin-modeller;Kan benyttes i DD Lab
 Formlabs Form Cure;formCure.png;Post-cure ved UV lys til resin-modeller;Kan benyttes i DD Lab
 Creaform ACADEMIA 3D scanner;creaformAcademia.PNG;Professional-grade 3D scanner;Kan lånes fra DD Lab
@@ -14,8 +14,8 @@ Olympus LS-14 Linear PCM Recorder;https://m.media-amazon.com/images/I/8196ncKQTb
 Marantz PMD620 recorder;https://cdn.mos.cms.futurecdn.net/55181d9f9d9b8e3e575069586f570bdf-1200-80.jpg; ;Kan lånes fra DD Lab
 overskrift;CNC maskiner;-;-
 Carvey;http://carvey-instructions.inventables.com/carvey_main.jpg;Lille CNC-fræser;Kan benyttes i DD Lab
-X-carve;https://d2rhdy377k7eul.cloudfront.net/assets/homepage/xcarve_25_preconfigured-2c82e6112505dd2da249b41a1540055867e2c4b0977895609475c563c82b54df.jpg;Stor CNC-fræser;Kan benyttes i DD Lab
-eduART lasercutter;https://usercontent.one/wp/www.eduard.dk/wp-content/uploads/2019/07/eduART-x750-350x263.jpg;Lasercutter;Kan benyttes i DD Lab
+X-carve;https://d2rhdy377k7eul.cloudfront.net/assets/homepage/xcarve_25_preconfigured-2c82e6112505dd2da249b41a1540055867e2c4b0977895609475c563c82b54df.jpg;Stor CNC-fræser;Kan benyttes i DD Lab. KRÆVER KØREKORT FOR AT FÅ TILLADELSE TIL AT BENYTTE!
+eduART lasercutter;https://usercontent.one/wp/www.eduard.dk/wp-content/uploads/2019/07/eduART-x750-350x263.jpg;Lasercutter;Kan benyttes i DD Lab. KRÆVER KØREKORT FOR AT FÅ TILLADELSE TIL AT BENYTTE!
 Voltera V-One PCB Printer;VolteraVOne.png;Print af egne printplader;Kan benyttes i DD Lab
 K´N´K Maxx Air 24 Vinylcutter;http://www.createncraft.com/wp-content/uploads/2015/09/MAXX-Air-KNK.png;Vinylcutter;Kan benyttes i DD Lab
 AxiDraw SE/A3 Plotter;https://cdn.evilmadscientist.com/sites/axidraw/sea3_1920c.jpg;The AxiDraw is a simple, modern, precise, and versatile pen plotter, capable of writing or drawing on almost any flat surface. It can write with your favorite fountain pens, permanent markers, and other writing implements to handle an endless variety of applications.;Kan benyttes i DD Lab
@@ -24,6 +24,7 @@ GoPro Hero 5+;https://static.gopro.com/aem/en/us/out-of-the-box-experience/hero-
 GoPro Hero 3+;https://www.elgiganten.dk/image/dv_web_D180001002296703/GOPROHER3PSIL/gopro-hero-3-silver-edition-action-kamera--pdp_zoom-3000--pdp_main-540.jpg;;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
 Olympus Digital Camera FE-270;https://i0.wp.com/camerausermanual.net/wp-content/uploads/2018/03/Olympus-FE-270-Manual-camera-front-and-rear-side.jpg?ssl=1;Digital Kamera;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
 Canopus ADVC110 DV-Converter;https://cvp.com/images/products/altimage/04%2001%2020081199438060ADVC110-500.jpg;Bi-directional analogue to DV converter. Use ADVC110 to connect all analogue and digital video cameras, decks and editing systems.;Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.
+RICOH Theta S;RicohThetaS.png;360 grader kamera;Kan lånes fra DD Lab
 overskrift;Motion tracking teknologier;-;-
 Vive HTC 3D Google;https://m.media-amazon.com/images/I/51xetJlV6OS._SL1500_.jpg;Virtual Reality headset. Kan benyttes med setuppet i glasburet;Kan lånes fra DD Lab
 Oculus Quest 2;oculusQuest2.jpeg;Virtual reality headset.;Kan lånes fra DD Lab

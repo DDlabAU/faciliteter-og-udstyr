@@ -26,4 +26,4 @@ DD Lab employees have created guides for several of our facilities. Please note 
 DD Lab is funded by the teaching aids from the department of Communication and Culture (IKK) at Aarhus University. DD Lab is therefore primarily a teaching facility and the main purpose of DD Lab is to support projects, activities and teaching regarding physical interaction for students. However, researchers and others associated with the department also have access to the lab's facilities. [Read more about DD Lab here.](https://ddlab.au.dk/)
 
 
-Send Questions to [ddlabau@gmail.com](mailto:ddlabau@gmail.com)
+Send questions to [ddlabau@gmail.com](mailto:ddlabau@gmail.com)
