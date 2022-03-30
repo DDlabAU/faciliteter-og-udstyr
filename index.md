@@ -7,6 +7,8 @@
   </tr>
 </table>
 
+[English Version](/faciliteter-og-udstyr/en/)
+
 Her kan du få et overblik over det udstyr og de faciliteter DD Lab og Audiodesign har at tilbyde.
 
 Vælg én af ovenstående muligheder for at se overblikket over de pågældende faciliteter og det pågældende udstyr.
