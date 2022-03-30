@@ -6,12 +6,14 @@ permalink: /en/
 
 <table>
   <tr>
-    <td><h2><a href="/faciliteter-og-udstyr/dd-lab/">DD Lab<br>Facilities and Equipment</a></h2>
+    <td><h2><a href="/faciliteter-og-udstyr/dd-lab/">DD Lab Facilities and Equipment</a></h2>
     </td>
-    <td><h2><a href="/faciliteter-og-udstyr/audiodesign/">Audio design<br>Facilities and Equipment</a></h2>
+    <td><h2><a href="/faciliteter-og-udstyr/audiodesign/">Audio design Facilities and Equipment</a></h2>
     </td>
   </tr>
 </table>
+
+[Dansk Version](/faciliteter-og-udstyr/)
 
 This is an overview of the equipment and facilities DD Lab and Audio design have to offer.
 
