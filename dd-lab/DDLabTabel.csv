@@ -32,6 +32,12 @@ HTC Vive;https://m.media-amazon.com/images/I/51xetJlV6OS._SL1500_.jpg;Virtual Re
 Oculus Quest 2;oculusQuest2.jpeg;Virtual reality headset.;Kan lånes fra DD Lab
 Oculus Rift DK2;https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.extremetech.com%2Fwp-content%2Fuploads%2F2014%2F03%2Foculus-rift-dk2.jpg&f=1&nofb=1;Virtual reality headset.;Kan lånes fra DD Lab
 Kinect for Xbox One;https://m.media-amazon.com/images/I/51d5c7AYhRL._AC_SX679_.jpg;;Kan lånes fra DD Lab
+MYO Gesture control armbånd fra Thalmic Labs;MYO.PNG;;Kan lånes fra DD Lab
+Leap motion controller;leap.jpg;Til genkendelse af håndbevægelser;Kan lånes fra DD Lab
+overskrift;Programmerbare Circuit Boards;-;-
+Raspberry Pi 3 Model B;raspberryPi.jpg;Minicomputer;Kan lånes fra DD Lab
+Arduino UNO;arduino.jpg;Simpel microcontroller. Diverse inputs og outputs kan lånes fra labbet.;Kan lånes fra DD Lab
+MakeyMakey;makeymakey.jpg;Simpelt circuit board til at tilslutte ledende materialer.;Kan lånes fra DD Lab
 overskrift;Projektorer;-;-
 BenQ MH733;https://image.benq.com/is/image/benqco/01-mh733-front30?$ResponsivePreset$&fmt=png-alpha;;Kan lånes fra DD Lab
 Dell M318WL;https://i.dell.com/images/global/products/proj/proj_highlights/projector-m318wl-overview1.jpg;Mini projektor;Kan lånes fra DD Lab
@@ -39,6 +45,27 @@ Optoma DX733;https://cdn.mos.cms.futurecdn.net/c4ca365999e0c4480249358d9734f960.
 ASK Proxima C350;https://www.projectorcentral.com/img.cfm?pid=3936; ;Kan lånes fra DD Lab
 Acer P 5370W Projektor;https://www.projectorcentral.com/img.cfm?pid=4241; ;Kan lånes fra DD Lab
 overskrift;Værktøj;-;-
+RYOBI Overfræser;https://static.ryobitools.eu/remote.axd/ryobi-media-images.s3.amazonaws.com/hi/RRT1600-K--Hero_1.jpg?v=7FB9E50E4DEC3912C57FACB4A110C47E;RYOBI RRT1600;Kan benyttes i DD Lab
+Proxxon Fræse-modul;proxxonBFW40e.jpg;Proxxon BFW 40/E;Kan benyttes i DD Lab
+Proxxon micromot Søjlebor;proxxonTBM220.png;Proxxon micromot TBM 220;Kan benyttes i DD Lab
+Proxxon micromot Stiksav;proxxonstiksav.jpeg;;Kan benyttes i DD Lab
+Proxxon micromot Båndsliber;proxxonBåndSliber.jpeg;;Kan benyttes i DD Lab
+Proxxon micromot Bordsav;ProxxonBordsav.jpg;Proxxon FET 27070;Kan benyttes i DD Lab
+Proxxon micromot Skumskærer;ProxxonSkum.png;Thermocut 230/e;Kan benyttes i DD Lab
+JET Spindelpudser;JETSpindelPudser.jpg;JET JBOS-5;Kan benyttes i DD Lab
+JET bånd- og rondelsliber;JETBåndRondelSliber.PNG;JET JSG 96-102E ;Kan benyttes i DD Lab
+Dremel 9000;dremel9000.jpg;Multifunktionsværktøj med mange forskellige hoveder;Kan benyttes i DD Lab
+Dremel kompaktsav DSM20;dremelDSM20.jpg;Kompaktsav med diverse klinger;Kan benyttes i DD Lab
+Bosch Stiksav;boschPST900PEL.png;Bosch pendulstiksav PST 900 PEL;Kan benyttes i DD Lab
+Bosch Sliber;boschSliber.jpg;Bosch multisliber PSM 160 A;Kan benyttes i DD Lab
+Bosch Slagboremaskine;boschHammerDrill.PNG;Bosch drill/Hammer;Kan benyttes i DD Lab
+Bosch Akku IXO;boschAkkuIXO.jpeg;Lille skruemaskine;Kan benyttes i DD Lab
+Bosch Søjlebor;BoschSøjlebor.jpg;Bosch PBD 40;
+RYOBI RCD 1802;RYOBIDDLab.PNG;Batteridrevet boremaskine;Kan benyttes i DD Lab
+RYOBI R18DDBL;RYOBIgrov.jpg;Batteridrevet boremaskine;Kan benyttes i DD Lab
+RYOBI ERGO;RyobiErgo.jpg;Lille skruemaskine;Kan benyttes i DD Lab
+Seeed DSO Quad Scope;seeedDSOQuad.PNG;Oscilloscop;Kan benyttes i DD Lab
+Seeed DSO Nano V3 Scopes;SeeedDSONanoV3.jpg;Oscilloscop;Kan benyttes i DD Lab
 Bosch GLM 30 Lasermåler;https://www.bosch-professional.com/ocs/ao/en/ocsmedia/337111-54/application-image/1434x828/laser-measure-glm-40-0601072900.png;Laser afstandsmåler;Kan lånes fra DD Lab
 Bosch Quigo Green Laser Krydsmåler;https://www.bosch-diy.com/imagestorage/fr-fr/outils-de-mise-a-niveau-2680181-hires-png-rgb-oneux-357351_w_750_h_421.png;Krydsmåler;Kan lånes fra DD Lab
 Weller loddekolbe;https://media-weller.de/weller/data/Weller%20Semi/images/SP40N.jpg;Loddekolbe;Kan benyttes i DD Lab. (<a href='mailto:ddlabau@gmail.com'>Skriv en mail til DD Lab</a> for at anmode om udlån.)
@@ -47,22 +74,6 @@ Loddestation, LF-389D, Xytronic;https://encrypted-tbn0.gstatic.com/images?q=tbn:
 BGS 2192 Tools Pocket Size Digital Multimeter;BGS292.jpg;Mini Multimeter;Kan lånes fra DD Lab
 Mastech MS8264 Multimeter;https://mastech-group.com/datas/upload/finder/files/20210928154310659.png;Multimeter;Kan lånes fra DD Lab
 Amprobe 5XP-A;https://www.amprobe.com/wp-content/uploads/2019/08/PD_15XP-1.jpg;Multimeter;Kan lånes fra DD Lab
-RYOBI RRT1600 Overfræser;https://static.ryobitools.eu/remote.axd/ryobi-media-images.s3.amazonaws.com/hi/RRT1600-K--Hero_1.jpg?v=7FB9E50E4DEC3912C57FACB4A110C47E;Overfræser;Kan benyttes i DD Lab
-Proxxon Fræse-modul;proxxonBFW40e.jpg;Proxxon BFW 40/E;Kan benyttes i DD Lab
-Proxxon micromot Søjlebor;proxxonTBM220.png;Proxxon micromot TBM 220;Kan benyttes i DD Lab
-Proxxon micromot Stiksav;proxxonstiksav.jpeg;;Kan benyttes i DD Lab
-Proxxon micromot Båndsliber;proxxonBåndSliber.jpeg;;Kan benyttes i DD Lab
-Dremel 9000;dremel9000.jpg;Multifunktionsværktøj med mange forskellige hoveder;Kan benyttes i DD Lab
-Dremel kompaktsav DSM20;dremelDSM20.jpg;Kompaktsav med diverse klinger;Kan benyttes i DD Lab
-Bosch Stiksav;boschPST900PEL.png;Bosch pendulstiksav PST 900 PEL;Kan benyttes i DD Lab
-Bosch Sliber;boschSliber.jpg;Bosch multisliber PSM 160 A;Kan benyttes i DD Lab
-Bosch slagboremaskine;boschHammerDrill.PNG;Bosch drill/Hammer;Kan benyttes i DD Lab
-Bosch Akku IXO;boschAkkuIXO.jpeg;Lille skruemaskine;Kan benyttes i DD Lab
-RYOBI RCD 1802;RYOBIDDLab.PNG;Batteridrevet boremaskine;Kan benyttes i DD Lab
-RYOBI R18DDBL;RYOBIgrov.jpg;Batteridrevet boremaskine;Kan benyttes i DD Lab
-RYOBI ERGO;RyobiErgo.jpg;Lille skruemaskine;Kan benyttes i DD Lab
-Seeed DSO Quad Scope;seeedDSOQuad.PNG;Oscilloscop;Kan benyttes i DD Lab
-Seeed DSO Nano V3 Scopes;SeeedDSONanoV3.jpg;Oscilloscop;Kan benyttes i DD Lab
 overskrift;Andet;-;-
 Parrot A.R.Drone 2.0;https://m.media-amazon.com/images/I/51ffvumBsEL._AC_SX450_.jpg;Drone;Kan lånes fra DD Lab
 Bernina Symaskine;https://www.naaimachine-onderdelen.eu/assets/cache/data/fotos/naaimachines/bernina/215-cr-750x750.jpg;Symaskine;Kan benyttes i DD Lab
