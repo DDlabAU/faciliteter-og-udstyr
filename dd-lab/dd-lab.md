@@ -7,6 +7,12 @@ permalink: /dd-lab/
 
 # DD Lab Faciliteter og Udstyr
 
+Udstyrslisterne er ikke fyldestgørende, men et udtryk for de meste brugte emner i DD Lab.
+
+Hvis du har spørgsmål om andet udstyr og vil vide om DD Lab ligger inde med det, så email Rasmus Lunding([rasl@cc.au.dk](mailto:rasl@cc.au.dk)
+
+<br/>
+
 ## Kategorier
 
 <section id="tabelsetup"></section>
