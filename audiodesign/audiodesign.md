@@ -7,6 +7,10 @@ permalink: /audiodesign/
 
 # Audiodesign Faciliteter og Udstyr
 
+Det kan forekomme at ikke alt tilgængeligt udstyr figurerer på nedenstående liste, eftersom Audiodesign råder over meget audio-tilbehør.
+
+Email Rasmus Lunding([rasl@cc.au.dk](mailto:rasl@cc.au.dk)), hvis du har spørgsmål om andet udstyr end det, der figurerer her.
+
 ## Kategorier
 
 <section id="tabelsetup"></section>
