@@ -9,7 +9,7 @@ permalink: /audiodesign/
 
 Udstyrslisterne er ikke fyldestgørende, men et udtryk for de meste brugte emner på Audiodesign.
 
-Hvis du har spørgsmål om andet udstyr og vil vide om Audiodesign ligger inde med det, så email Rasmus Lunding([rasl@cc.au.dk](mailto:rasl@cc.au.dk)
+Hvis du har spørgsmål om andet udstyr og vil vide om Audiodesign ligger inde med det, så email Rasmus Lunding([rasl@cc.au.dk](mailto:rasl@cc.au.dk)).
 
 <br/>
 
