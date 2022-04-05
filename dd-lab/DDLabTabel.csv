@@ -43,10 +43,13 @@ Kinect for Xbox One;https://m.media-amazon.com/images/I/51d5c7AYhRL._AC_SX679_.j
 MYO Gesture control armbånd fra Thalmic Labs;MYO.PNG;;Kan lånes fra DD Lab
 Leap motion controller;leap.jpg;Til genkendelse af håndbevægelser;Kan lånes fra DD Lab
 overskrift;Programmerbare Circuit Boards;-;-
-Raspberry Pi 3 Model B;raspberryPi.jpg;Minicomputer;Kan lånes fra DD Lab
 Arduino UNO;arduino.jpg;Simpel microcontroller. Diverse inputs og outputs kan lånes fra labbet.;Kan lånes fra DD Lab
 Adafruit Circuit Playground Express;CircuitPlayground.PNG;Simpel microcontroller med diverse inputs og outputs indbygget;Kan lånes fra DD Lab
 MakeyMakey;makeymakey.jpg;Simpelt circuit board til at tilslutte ledende materialer.;Kan lånes fra DD Lab
+Raspberry Pi 3 Model B;raspberryPi.jpg;Minicomputer;Kan lånes fra DD Lab
+Raspberry Pi 4 Model B;;Minicomputer;Kan lånes fra DD Lab
+Raspberry Pi Zero 2;;;
+Raspberry Pi Pico;;;
 overskrift;Projektorer;-;-
 BenQ MH733;https://image.benq.com/is/image/benqco/01-mh733-front30?$ResponsivePreset$&fmt=png-alpha;;Kan lånes fra DD Lab
 Dell M318WL;https://i.dell.com/images/global/products/proj/proj_highlights/projector-m318wl-overview1.jpg;Mini projektor;Kan lånes fra DD Lab
@@ -69,7 +72,7 @@ Bosch Stiksav;boschPST900PEL.png;Bosch pendulstiksav PST 900 PEL;Kan benyttes i 
 Bosch Sliber;boschSliber.jpg;Bosch multisliber PSM 160 A;Kan benyttes i DD Lab
 Bosch Slagboremaskine;boschHammerDrill.PNG;Bosch drill/Hammer;Kan benyttes i DD Lab
 Bosch Akku IXO;boschAkkuIXO.jpeg;Lille skruemaskine;Kan benyttes i DD Lab
-Bosch Søjlebor;BoschSøjlebor.jpg;Bosch PBD 40;
+Bosch Søjlebor;BoschSøjlebor.jpg;Bosch PBD 40;Kan benyttes i DD Lab
 RYOBI RCD 1802;RYOBIDDLab.PNG;Batteridrevet boremaskine;Kan benyttes i DD Lab
 RYOBI R18DDBL;RYOBIgrov.jpg;Batteridrevet boremaskine;Kan benyttes i DD Lab
 RYOBI ERGO;RyobiErgo.jpg;Lille skruemaskine;Kan benyttes i DD Lab
