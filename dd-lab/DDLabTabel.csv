@@ -1,21 +1,21 @@
 ﻿Titel;Billede;Kommentar;Udlån
 overskrift;3D Printere og Scannere;-;-
 PRUSA I3 MK3S+ 3D PRINTER;prusa3D.jpg;3D filament printer.;Kan benyttes i DD Lab
-Ultimaker 3 Extended;https://facilities.create.aau.dk/wp-content/uploads/Ultimaker_3_Extended_1_3D_Printer-682x1024.png;3D filament printer.;Kan benyttes i DD Lab
-Ultimaker 3;https://images.ctfassets.net/7cnpidfipnrw/1SC74VDuyQTUS2hz5mZcgL/88824829fad6c0314be36fe2f771cf9b/Ultimaker-3-3D-printer-hero.png?fm=webp&w=2048;3D filament printer.;Kan benyttes i DD Lab
+Ultimaker 3 Extended;Ultimaker3Ext.png;3D filament printer.;Kan benyttes i DD Lab
+Ultimaker 3;Ultimaker3.PNG;3D filament printer.;Kan benyttes i DD Lab
 Formlabs Form 3;form3.png;Resin 3D printer;Kan benyttes i DD Lab. KRÆVER KØREKORT FOR AT FÅ TILLADELSE TIL AT BENYTTE!
 Formlabs Form Wash;formWash.jpeg;Alkohol vaskemaskine til resin-modeller;Kan benyttes i DD Lab
 Formlabs Form Cure;formCure.png;Post-cure ved UV lys til resin-modeller;Kan benyttes i DD Lab
 Creaform ACADEMIA 3D scanner;creaformAcademia.PNG;Professional-grade 3D scanner;Kan lånes fra DD Lab
-Structure Sensor;https://structure.io/static/occipital/images/v2/structure-sensor-pro/renders/st02b-partipad-angle.png; Til 3D scanning og augmented reality. Fungerer sammen med iPad, som DD Lab har. Fungerer også sammen med Skanect Pro-software.;Kan lånes fra DD Lab
+Structure Sensor;structureSensor.png; Til 3D scanning og augmented reality. Fungerer sammen med iPad, som DD Lab har. Fungerer også sammen med Skanect Pro-software.;Kan lånes fra DD Lab
 overskrift;Audiooptagere;-;-
-Olympus Linear Recorder LS-P2;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWZ46Y1m7Mzl_yaK5nYZgPriTFCXXwq49ccESdiKzAInvmvzxQThqyg3pHb4kHj9O3jpo&usqp=CAU; ;Kan lånes fra DD Lab
+Olympus Linear Recorder LS-P2;Olympus-LS-P2.jpeg; ;Kan lånes fra DD Lab
 Olympus LS-14 Linear PCM Recorder;OlympusLS-14.jpg;Inklusiv pose, usb-kabel, vindhætte og stand;Kan lånes fra DD Lab
-Marantz PMD620 recorder;https://cdn.mos.cms.futurecdn.net/55181d9f9d9b8e3e575069586f570bdf-1200-80.jpg; ;Kan lånes fra DD Lab
+Marantz PMD620 recorder;MarantzPMD620.jpg; ;Kan lånes fra DD Lab
 overskrift;CNC maskiner;-;-
-Carvey;http://carvey-instructions.inventables.com/carvey_main.jpg;Lille CNC-fræser;Kan benyttes i DD Lab
-X-carve;https://d2rhdy377k7eul.cloudfront.net/assets/homepage/xcarve_25_preconfigured-2c82e6112505dd2da249b41a1540055867e2c4b0977895609475c563c82b54df.jpg;Stor CNC-fræser;Kan benyttes i DD Lab. KRÆVER KØREKORT FOR AT FÅ TILLADELSE TIL AT BENYTTE!
-eduART lasercutter;https://usercontent.one/wp/www.eduard.dk/wp-content/uploads/2019/07/eduART-x750-350x263.jpg;Lasercutter;Kan benyttes i DD Lab. KRÆVER KØREKORT FOR AT FÅ TILLADELSE TIL AT BENYTTE!
+Carvey;carvey.jpg;Lille CNC-fræser;Kan benyttes i DD Lab
+X-carve;xCarve.jpg;Stor CNC-fræser;Kan benyttes i DD Lab. KRÆVER KØREKORT FOR AT FÅ TILLADELSE TIL AT BENYTTE!
+eduART lasercutter;lasercutter.png;Lasercutter;Kan benyttes i DD Lab. KRÆVER KØREKORT FOR AT FÅ TILLADELSE TIL AT BENYTTE!
 Voltera V-One PCB Printer;VolteraVOne.png;Print af egne printplader;Kan benyttes i DD Lab
 K´N´K Maxx Air 24 Vinylcutter;http://www.createncraft.com/wp-content/uploads/2015/09/MAXX-Air-KNK.png;Vinylcutter;Kan benyttes i DD Lab
 AxiDraw SE/A3 Plotter;https://cdn.evilmadscientist.com/sites/axidraw/sea3_1920c.jpg;The AxiDraw is a simple, modern, precise, and versatile pen plotter, capable of writing or drawing on almost any flat surface. It can write with your favorite fountain pens, permanent markers, and other writing implements to handle an endless variety of applications.;Kan benyttes i DD Lab
