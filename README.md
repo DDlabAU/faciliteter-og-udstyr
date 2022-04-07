@@ -10,9 +10,11 @@ Her er en guide til at tilføje udstyr eller faciliteter til siden.
 
 Siden er opdelt mellem DD Lab og Audiodesign.
 
-For at tilføje udstyr til listen med DD Lab faciliteter og udstyr skal det skrives ind i .csv-filen under [*dd-lab -> DDLabTabel.csv*](/dd-lab/DDLabTAbel.csv)
+For at tilføje udstyr til listen med DD Lab faciliteter og udstyr skal det skrives ind i .csv-filen under [*dd-lab -> DDLabTabel.csv*](/dd-lab/DDLabTabel.csv)
 
 For at tilføje udstyr til listen med audiodesign faciliteter og udstyr skal det skrives ind i .csv-filen under [*audiodesign -> AudiodesignTabel.csv*](/audiodesign/AudiodesignTabel.csv)
+
+(Hvis du ser på .csv-filerne i den online github-viewer skal du ikke tænke på de fejlmeddelelser github skriver, for den tror filerne er komma-sepererede, men de er semikolon-sepererede, og det kan githubs online viewer ikke læse.)
 
 Informationerne i disse .csv-filer importeres og sættes op gennem et script i markdown-filerne for hhv. forsiden, DD lab oversigten og audiodesign oversigten. For at ændre alt andet end selve udstyret eller faciliteterne gøres det ved at ændre i filerne:
 - Forside: [index.md](/index.md)
