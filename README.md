@@ -23,17 +23,25 @@ For at tilføje til listen med Audiodesign udstyr... AudiodesignTabel.csv
 
 For at lave overskrifter...
 
+|Titel| Billede|Kommentar|Udlån|
+|---|---|---|---|
+|overskrift|3D Printere og Scannere|-|-|
+
 
 
 ## Kolonner i .csv-filerne:
 
-Olympus LS-14 Linear PCM Recorder	https://m.media-amazon.com/images/I/8196ncKQTbL._AC_SL1500_.jpg	Inklusiv pose, usb-kabel, vindhætte og stand	Kan lånes fra DD Lab
+|Titel| Billede|Kommentar|Udlån|
+|---|---|---|---|
+|Olympus LS-14 Linear PCM Recorder|OlympusLS-14.jpg|Inklusiv pose, usb-kabel, vindhætte og stand|Kan lånes fra DD Lab|
 
-![Samlet](/assets/img/ddLabOverblik.png)
+![Samlet](/assets/img/ddLabOverblik.PNG)
 
 ### Titel
 
 ![Titel](/assets/img/ddLabOverblikTitel.png)
+
+Navnet på faciliteten eller udstyret skrives i denne kolonne, med model-information, hvis vi har flere forskellige slags.
 
 ### Billede
 
@@ -41,23 +49,24 @@ Olympus LS-14 Linear PCM Recorder	https://m.media-amazon.com/images/I/8196ncKQTb
 
 Indsæt billede i "images"-mappen (enten audiodesign -> images eller dd-lab -> images).
 
-Skriv filnavn med filtype ind i kolonnen i .csv filen.
+Skriv filnavn med filtype ind i denne kolonne i .csv filen.
 
-Links til billeder kan også indsættes, men for at undgå at linksne forældes og bliver ugyldige, bør billederne uploades lokalt.
+Links til billeder kan også indsættes, men for at undgå at links'ne forældes og bliver ugyldige, bør billederne uploades til mappen i stedet.
 
 ### Kommentar
 
 ![Kommentar](/assets/img/ddLabOverblikKommentar.png)
 
-Beskrivelser eller kommentarer til udstyret/faciliteten.
+Hvis faciliteten eller udstyret kræver supplerende beskrivelser eller kommentarer, skriv dem i denne kolonne.
 
 ### Udlån
 
 ![Udlån](/assets/img/ddLabOverblikUdlån.png)
 
-Detaljer angående hvorhvidt udstyret/faciliteten udlånes. På nuværende tidspunkt kan dette være en af følgende muligheder:
+Detaljer angående hvorhvidt udstyret eller faciliteten udlånes skrives i denne kolonne. På nuværende tidspunkt kan dette være en af følgende muligheder:
 
 - ```Kan benyttes i DD Lab```
 - ```Kan benyttes i DD Lab. KRÆVER KØREKORT FOR AT FÅ TILLADELSE TIL AT BENYTTE!```
+- ```Kan benyttes i DD Lab. Spørg en ansat til råds før du benytter den første gang.```
 - ```Kan lånes fra DD Lab```
 - ```Skriv til <a href='mailto:rasl@cc.au.dk'>rasl@cc.au.dk</a>  angående udlån.```

@@ -1,6 +1,6 @@
 ﻿Titel;Billede;Kommentar;Udlån
 overskrift;3D Printere og Scannere;-;-
-PRUSA I3 MK3S+ 3D PRINTER;https://cdn.prusa3d.com/content/images/product/default/3325.jpg;3D filament printer.;Kan benyttes i DD Lab
+PRUSA I3 MK3S+ 3D PRINTER;prusa3D.jpg;3D filament printer.;Kan benyttes i DD Lab
 Ultimaker 3 Extended;https://facilities.create.aau.dk/wp-content/uploads/Ultimaker_3_Extended_1_3D_Printer-682x1024.png;3D filament printer.;Kan benyttes i DD Lab
 Ultimaker 3;https://images.ctfassets.net/7cnpidfipnrw/1SC74VDuyQTUS2hz5mZcgL/88824829fad6c0314be36fe2f771cf9b/Ultimaker-3-3D-printer-hero.png?fm=webp&w=2048;3D filament printer.;Kan benyttes i DD Lab
 Formlabs Form 3;form3.png;Resin 3D printer;Kan benyttes i DD Lab. KRÆVER KØREKORT FOR AT FÅ TILLADELSE TIL AT BENYTTE!
@@ -10,7 +10,7 @@ Creaform ACADEMIA 3D scanner;creaformAcademia.PNG;Professional-grade 3D scanner;
 Structure Sensor;https://structure.io/static/occipital/images/v2/structure-sensor-pro/renders/st02b-partipad-angle.png; Til 3D scanning og augmented reality. Fungerer sammen med iPad, som DD Lab har. Fungerer også sammen med Skanect Pro-software.;Kan lånes fra DD Lab
 overskrift;Audiooptagere;-;-
 Olympus Linear Recorder LS-P2;https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWZ46Y1m7Mzl_yaK5nYZgPriTFCXXwq49ccESdiKzAInvmvzxQThqyg3pHb4kHj9O3jpo&usqp=CAU; ;Kan lånes fra DD Lab
-Olympus LS-14 Linear PCM Recorder;https://m.media-amazon.com/images/I/8196ncKQTbL._AC_SL1500_.jpg;Inklusiv pose, usb-kabel, vindhætte og stand;Kan lånes fra DD Lab
+Olympus LS-14 Linear PCM Recorder;OlympusLS-14.jpg;Inklusiv pose, usb-kabel, vindhætte og stand;Kan lånes fra DD Lab
 Marantz PMD620 recorder;https://cdn.mos.cms.futurecdn.net/55181d9f9d9b8e3e575069586f570bdf-1200-80.jpg; ;Kan lånes fra DD Lab
 overskrift;CNC maskiner;-;-
 Carvey;http://carvey-instructions.inventables.com/carvey_main.jpg;Lille CNC-fræser;Kan benyttes i DD Lab
@@ -57,18 +57,18 @@ Optoma DX733;https://cdn.mos.cms.futurecdn.net/c4ca365999e0c4480249358d9734f960.
 ASK Proxima C350;https://www.projectorcentral.com/img.cfm?pid=3936; ;Kan lånes fra DD Lab
 Acer P 5370W Projektor;https://www.projectorcentral.com/img.cfm?pid=4241; ;Kan lånes fra DD Lab
 overskrift;Værktøj;-;-
-RYOBI Overfræser;https://static.ryobitools.eu/remote.axd/ryobi-media-images.s3.amazonaws.com/hi/RRT1600-K--Hero_1.jpg?v=7FB9E50E4DEC3912C57FACB4A110C47E;RYOBI RRT1600;Kan benyttes i DD Lab
+RYOBI Overfræser;https://static.ryobitools.eu/remote.axd/ryobi-media-images.s3.amazonaws.com/hi/RRT1600-K--Hero_1.jpg?v=7FB9E50E4DEC3912C57FACB4A110C47E;RYOBI RRT1600;Kan benyttes i DD Lab. Spørg en ansat til råds før du benytter den første gang.
 Proxxon Fræse-modul;proxxonBFW40e.jpg;Proxxon BFW 40/E;Kan benyttes i DD Lab
 Proxxon micromot Søjlebor;proxxonTBM220.png;Proxxon micromot TBM 220;Kan benyttes i DD Lab
-Proxxon micromot Stiksav;proxxonstiksav.jpeg;;Kan benyttes i DD Lab
+Proxxon micromot Stiksav;proxxonstiksav.jpeg;;Kan benyttes i DD Lab. Spørg en ansat til råds før du benytter den første gang.
 Proxxon micromot Båndsliber;proxxonBåndSliber.jpeg;;Kan benyttes i DD Lab
-Proxxon micromot Bordsav;ProxxonBordsav.jpg;Proxxon FET 27070;Kan benyttes i DD Lab
+Proxxon micromot Bordsav;ProxxonBordsav.jpg;Proxxon FET 27070;Kan benyttes i DD Lab. Spørg en ansat til råds før du benytter den første gang.
 Proxxon micromot Skumskærer;ProxxonSkum.png;Thermocut 230/e;Kan benyttes i DD Lab
-JET Spindelpudser;JETSpindelPudser.jpg;JET JBOS-5;Kan benyttes i DD Lab
-JET bånd- og rondelsliber;JETBåndRondelSliber.PNG;JET JSG 96-102E ;Kan benyttes i DD Lab
+JET Spindelpudser;JETSpindelPudser.jpg;JET JBOS-5;Kan benyttes i DD Lab. Spørg en ansat til råds før du benytter den første gang.
+JET bånd- og rondelsliber;JETBåndRondelSliber.PNG;JET JSG 96-102E ;Kan benyttes i DD Lab. Spørg en ansat til råds før du benytter den første gang.
 Dremel 9000;dremel9000.jpg;Multifunktionsværktøj med mange forskellige hoveder;Kan benyttes i DD Lab
-Dremel kompaktsav DSM20;dremelDSM20.jpg;Kompaktsav med diverse klinger;Kan benyttes i DD Lab
-Bosch Stiksav;boschPST900PEL.png;Bosch pendulstiksav PST 900 PEL;Kan benyttes i DD Lab
+Dremel kompaktsav DSM20;dremelDSM20.jpg;Kompaktsav med diverse klinger;Kan benyttes i DD Lab. Spørg en ansat til råds før du benytter den første gang.
+Bosch Stiksav;boschPST900PEL.png;Bosch pendulstiksav PST 900 PEL;Kan benyttes i DD Lab. Spørg en ansat til råds før du benytter den første gang.
 Bosch Sliber;boschSliber.jpg;Bosch multisliber PSM 160 A;Kan benyttes i DD Lab
 Bosch Slagboremaskine;boschHammerDrill.PNG;Bosch drill/Hammer;Kan benyttes i DD Lab
 Bosch Akku IXO;boschAkkuIXO.jpeg;Lille skruemaskine;Kan benyttes i DD Lab
