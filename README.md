@@ -18,7 +18,7 @@ For at tilføje udstyr til listen med audiodesign faciliteter og udstyr skal det
 
 Informationerne i disse .csv-filer importeres og sættes op gennem et script i markdown-filerne for hhv. forsiden, DD lab oversigten og audiodesign oversigten. For at ændre alt andet end selve udstyret eller faciliteterne gøres det ved at ændre i filerne:
 - Forside: [index.md](/index.md)
-- Venstre sidebar: [config.yml](/config.yml)
+- Venstre sidebar: [_config.yml](/_config.yml)
 - DD Lab oversigt: [dd-lab.md](/dd-lab/dd-lab.md)
 - Audiodesign oversigt: [audiodesign.md](/audiodesign/audiodesign.md)
 
