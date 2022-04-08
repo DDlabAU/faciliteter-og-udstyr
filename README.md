@@ -14,10 +14,11 @@ For at tilføje udstyr til listen med DD Lab faciliteter og udstyr skal det skri
 
 For at tilføje udstyr til listen med audiodesign faciliteter og udstyr skal det skrives ind i .csv-filen under [*audiodesign -> AudiodesignTabel.csv*](/audiodesign/AudiodesignTabel.csv)
 
-(Hvis du ser på .csv-filerne i den online github-viewer skal du ikke tænke på de fejlmeddelelser github skriver, for den tror filerne er komma-sepererede, men de er semikolon-sepererede, og det kan githubs online viewer ikke læse.)
+(Hvis du ser på .csv-filerne i den online github-viewer skal du ikke tænke på de fejlmeddelelser github skriver, for den tror filerne er komma-sepererede, men de er **semikolon-sepererede**, og det kan githubs online viewer ikke læse.)
 
 Informationerne i disse .csv-filer importeres og sættes op gennem et script i markdown-filerne for hhv. forsiden, DD lab oversigten og audiodesign oversigten. For at ændre alt andet end selve udstyret eller faciliteterne gøres det ved at ændre i filerne:
 - Forside: [index.md](/index.md)
+- Venstre sidebar: [config.yml](/config.yml)
 - DD Lab oversigt: [dd-lab.md](/dd-lab/dd-lab.md)
 - Audiodesign oversigt: [audiodesign.md](/audiodesign/audiodesign.md)
 
@@ -41,7 +42,7 @@ Overskrifter/Kategorier er den interaktive indholdsfortegnelse der er i toppen a
 
 ![Kategorier](/assets/img/kategorier.PNG)
 
-Disse kategorier er også hentet ind fra .csv-filerne, og indsættes ved at lave en række, hvor *"overskrift"* skrives under titel-kolonnen og navnet på kategorien indsættes i billed-kolonnen, efterfulgt af en *"-"* i både kommentar- og udlånkolonnen.
+Disse kategorier er også hentet ind fra .csv-filerne, og indsættes ved at lave en række, hvor *"overskrift"* skrives under titel-kolonnen og navnet på kategorien indsættes i billed-kolonnen, efterfulgt af en *"-"* i både kommentar- og udlån-kolonnen.
 
 Dvs. en overskrift tilføjes som i tabellen nedenfor:
 
@@ -51,11 +52,15 @@ Dvs. en overskrift tilføjes som i tabellen nedenfor:
 
 ### Titel-kolonnen
 
+Er den titel, der placeres som markeret med rødt på billedet nedenfor:
+
 ![Titel](/assets/img/ddLabOverblikTitel.png)
 
-Navnet på faciliteten eller udstyret skrives i denne kolonne, med model-information, hvis vi har flere forskellige slags.
+Navnet på faciliteten eller udstyret skrives i denne kolonne, med model-information, hvis vi har flere forskellige slags. Dette felt SKAL udfyldes.
 
 ### Billede-kolonnen
+
+Er det billede, der placeres som markeret med rødt på billedet nedenfor:
 
 ![Billede](/assets/img/ddLabOverblikBillede.png)
 
@@ -65,17 +70,23 @@ Skriv filnavn med filtype ind i denne kolonne i .csv filen.
 
 Links til billeder kan også indsættes, men for at undgå at links'ne forældes og bliver ugyldige, bør billederne uploades til mappen i stedet.
 
+Dette felt kan efterlades tom, men det foretrækkes at der tilføjes et billede.
+
 ### Kommentar-kolonnen
+
+Er den lille beskrivelse, der placeres som markeret med rødt på billedet nedenfor:
 
 ![Kommentar](/assets/img/ddLabOverblikKommentar.png)
 
-Hvis faciliteten eller udstyret kræver supplerende beskrivelser eller kommentarer, skriv dem i denne kolonne.
+Hvis faciliteten eller udstyret kræver supplerende beskrivelser eller kommentarer, skriv dem i denne kolonne. Dette er ikke nødvendigt for alt udstyr, så feltet kan godt efterlades tomt.
 
 ### Udlån-kolonnen
 
+Er den status for udlån, der placeres som markeret med rødt på billedet nedenfor:
+
 ![Udlån](/assets/img/ddLabOverblikUdlån.png)
 
-Detaljer angående hvorhvidt udstyret eller faciliteten udlånes skrives i denne kolonne. På nuværende tidspunkt kan dette være en af følgende muligheder:
+Detaljer angående hvorhvidt udstyret eller faciliteten udlånes skrives i denne kolonne. Dette felt SKAL udfyldes, og kan på nuværende tidspunkt være en af følgende muligheder:
 
 - ```Kan benyttes i DD Lab```
 - ```Kan benyttes i DD Lab. KRÆVER KØREKORT FOR AT FÅ TILLADELSE TIL AT BENYTTE!```
