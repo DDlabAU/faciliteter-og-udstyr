@@ -1,37 +1,37 @@
-Navn;Beskrivelse;Billede;Enhedspris;Kategori
-Blandede akrylpladerester – pr. 25 gram;Blandede akrylpladerester til lasercutteren. Vej materialet på vægten i CNC-rummet. Del vægten i gram med 25 for at finde antallet af enheder.;akryl_blandet.jpg;1;Akryl
-Akrylplade 3 mm 25 × 25 cm, Rød;3 mm akrylplade. Kan benyttes i lasercutteren, men ikke i CNC-fræseren.;akryl_rød.png;31;Akryl
-Akrylplade 3 mm 25 × 35 cm, Klar;3 mm akrylplade. Kan benyttes i lasercutteren, men ikke i CNC-fræseren.;akryl_klar.png;31;Akryl
-Akrylplade 3 mm 25 × 37,5 cm, Klar;3 mm akrylplade. Kan benyttes i lasercutteren, men ikke i CNC-fræseren.;akryl_klar.png;19;Akryl
-Akrylplade 3 mm 25 × 50 cm, Rød;3 mm akrylplade. Kan benyttes i lasercutteren, men ikke i CNC-fræseren.;akryl_rød.png;63;Akryl
-Akrylplade 3 mm 37,5 × 50 cm, Rød transparent;3 mm akrylplade. Kan benyttes i lasercutteren, men ikke i CNC-fræseren.;akryl_rød.png;81;Akryl
-Akrylplade 3 mm 25 × 37,5 cm, Rød transparent;3 mm akrylplade. Kan benyttes i lasercutteren, men ikke i CNC-fræseren.;akryl_rød.png;44;Akryl
-Akrylplade 3 mm 37,5 × 50 cm, Orange transparent;3 mm akrylplade. Kan benyttes i lasercutteren, men ikke i CNC-fræseren.;akryl_orange.png;81;Akryl
-Akrylplade 3 mm 37,5 × 50 cm, Gulgrøn transparent;3 mm akrylplade. Kan benyttes i lasercutteren, men ikke i CNC-fræseren.;akryl_gulgrøn.png;81;Akryl
-Akrylplade 3 mm 25 × 37,5 cm, Gulgrøn transparent;3 mm akrylplade. Kan benyttes i lasercutteren, men ikke i CNC-fræseren.;akryl_gulgrøn.png;44;Akryl
-Akrylplade 3 mm, 50 × 70 cm Klar;3 mm akrylplade. Kan benyttes i lasercutteren, men ikke i CNC-fræseren. Webshoppen angiver klar akryl i titlen og spejlakryl i beskrivelsen. Spørg en ansat i DD Lab om typen før brug.;akryl_klar.png;125;Akryl
-Akrylplade 3 mm 37,5 × 50 cm, Spejl;3 mm akrylplade. Kan benyttes i lasercutteren, men ikke i CNC-fræseren.;akryl_spejl.png;94;Akryl
-Akrylplade 3 mm 25 × 37,5 cm, Spejl;3 mm akrylplade. Kan benyttes i lasercutteren, men ikke i CNC-fræseren.;akryl_spejl.png;50;Akryl
-Finérplade 9 mm, 41 × 60 cm Poppeltræ;Finérplade af poppeltræ. Kan benyttes i CNC-fræseren.;;94;Finér
-Finérplade 4 mm, 25 × 25 cm Birketræ;Finérplade af birketræ. Kan benyttes i CNC-fræseren.;;19;Finér
-Finérplade 1 mm, 25 × 50 cm Birketræ - Flyverfinér;1 mm flyverfinér af birketræ. Kan benyttes i lasercutteren og til modelskæring.;;44;Finér
-Finérplade 9 mm, 38 × 70 cm Birketræ;Finérplade af birketræ. Kan benyttes i CNC-fræseren.;;75;Finér
-Finérplade 10 mm, 20 × 25 cm Birketræ;Finérplade af birketræ. Kan benyttes i CNC-fræseren.;;25;Finér
-MDF-plade 2 mm, 35 × 50 cm;MDF-kompositplade. Kan benyttes i lasercutteren og CNC-fræseren.;;16;MDF
-MDF-plade 2 mm, 25 × 35 cm;MDF-kompositplade. Kan benyttes i lasercutteren og CNC-fræseren.;;13;MDF
-MDF-plade 2 mm, 50 × 70 cm;MDF-kompositplade. Kan benyttes i lasercutteren og CNC-fræseren.;;31;MDF
-MDF-plade 3 mm, 25 × 35 cm;MDF-kompositplade. Kan benyttes i lasercutteren og CNC-fræseren.;;15;MDF
-MDF-plade 3 mm, 35 × 50 cm;MDF-kompositplade. Kan benyttes i lasercutteren og CNC-fræseren.;;19;MDF
-MDF-plade 4 mm, 25 × 35 cm;MDF-kompositplade. Kan benyttes i lasercutteren og CNC-fræseren.;;18;MDF
-MDF-plade 10 mm, 50 × 50 cm;10 mm MDF-kompositplade. Kan benyttes i CNC-fræseren.;;50;MDF
-MDF-plade 6 mm, 35 × 50 cm;MDF-kompositplade. Kan benyttes i lasercutteren og CNC-fræseren.;;25;MDF
-MDF-plade 6 mm, 25 × 32 cm;MDF-kompositplade. Kan benyttes i lasercutteren og CNC-fræseren.;;21;MDF
-3D-print – filamentforbrug – pr. 4 gram;Filament til brug på DD Labs 3D-printere. Forbruget i gram kan aflæses på printeren. Del forbruget i gram med 4 for at finde antallet af enheder. Prints, der vejer under 5 gram, er gratis. Kun til brug på labbets maskiner.;;1;3D-print
-3D-print – resinforbrug – pr. ml;Resin til brug på DD Labs resinprintere. Forbruget opgøres i milliliter. Mængder med decimaler afrundes til nærmeste hele milliliter. Kun til brug på labbets maskiner.;;1;3D-print
-Laminatlomme A4;Laminatlommer i A4-format, 80 mikrometer.;laminatlommeA4.png;1;Laminering
-Laminatlomme A3;Laminatlommer i A3-format, 80 mikrometer.;;3;Laminering
-Smart Vinyl – aftagelig, hvid og sort – pr. 10 cm;Aftagelig Smart Vinyl til Cricut-vinylskæreren. Fås i hvid og sort. Udleveres i DD Lab i forbindelse med brug. Betal først, når skæringen er foretaget, og du kender forbruget.;;5;Vinyl og selvklæbende papir
-Permanent Vinyl – ark på 30 × 30 cm, assorterede farver;Permanent vinyl til Cricut-vinylskæreren. Ark på 30 × 30 cm i aqua, lilla, pink, limegrøn, gul og lyseblå. Udleveres i DD Lab i forbindelse med brug. Betal først, når skæringen er foretaget, og du kender forbruget.;;20;Vinyl og selvklæbende papir
-Sticky Paper – A4-ark til print og vinylskæring;Selvklæbende A4-ark til print og skæring på Cricut-vinylskæreren. Fås i transparent, transparent holografisk, hvid og hvid holografisk. Udleveres i DD Lab i forbindelse med brug. Betal først, når skæringen er foretaget, og du kender forbruget.;;20;Vinyl og selvklæbende papir
-Permanent Vinyl – sort – pr. 10 cm;Permanent sort vinyl til Cricut-vinylskæreren. Udleveres i DD Lab i forbindelse med brug. Betal først, når skæringen er foretaget, og du kender forbruget.;;5;Vinyl og selvklæbende papir
-Smart Vinyl Permanent – hvid – pr. 10 cm;Permanent hvid Smart Vinyl til Cricut-vinylskæreren. Udleveres i DD Lab i forbindelse med brug. Betal først, når skæringen er foretaget, og du kender forbruget.;;5;Vinyl og selvklæbende papir
+Navn;Beskrivelse;Billede;Enhedspris;Kategori;Skjul
+Blandede akrylpladerester – pr. 25 gram;Blandede akrylpladerester til lasercutteren. Vej materialet på vægten i CNC-rummet. Del vægten i gram med 25 for at finde antallet af enheder.;akryl_blandet.jpg;1;Akryl;
+Akrylplade 3 mm 25 × 25 cm, Rød;3 mm akrylplade. Kan benyttes i lasercutteren, men ikke i CNC-fræseren.;akryl_rød.png;31;Akryl;
+Akrylplade 3 mm 25 × 35 cm, Klar;3 mm akrylplade. Kan benyttes i lasercutteren, men ikke i CNC-fræseren.;akryl_klar.png;31;Akryl;
+Akrylplade 3 mm 25 × 37,5 cm, Klar;3 mm akrylplade. Kan benyttes i lasercutteren, men ikke i CNC-fræseren.;akryl_klar.png;19;Akryl;
+Akrylplade 3 mm 25 × 50 cm, Rød;3 mm akrylplade. Kan benyttes i lasercutteren, men ikke i CNC-fræseren.;akryl_rød.png;63;Akryl;
+Akrylplade 3 mm 37,5 × 50 cm, Rød transparent;3 mm akrylplade. Kan benyttes i lasercutteren, men ikke i CNC-fræseren.;akryl_rød.png;81;Akryl;
+Akrylplade 3 mm 25 × 37,5 cm, Rød transparent;3 mm akrylplade. Kan benyttes i lasercutteren, men ikke i CNC-fræseren.;akryl_rød.png;44;Akryl;
+Akrylplade 3 mm 37,5 × 50 cm, Orange transparent;3 mm akrylplade. Kan benyttes i lasercutteren, men ikke i CNC-fræseren.;akryl_orange.png;81;Akryl;
+Akrylplade 3 mm 37,5 × 50 cm, Gulgrøn transparent;3 mm akrylplade. Kan benyttes i lasercutteren, men ikke i CNC-fræseren.;akryl_gulgrøn.png;81;Akryl;
+Akrylplade 3 mm 25 × 37,5 cm, Gulgrøn transparent;3 mm akrylplade. Kan benyttes i lasercutteren, men ikke i CNC-fræseren.;akryl_gulgrøn.png;44;Akryl;
+Akrylplade 3 mm, 50 × 70 cm Klar;3 mm akrylplade. Kan benyttes i lasercutteren, men ikke i CNC-fræseren. Webshoppen angiver klar akryl i titlen og spejlakryl i beskrivelsen. Spørg en ansat i DD Lab om typen før brug.;akryl_klar.png;125;Akryl;
+Akrylplade 3 mm 37,5 × 50 cm, Spejl;3 mm akrylplade. Kan benyttes i lasercutteren, men ikke i CNC-fræseren.;akryl_spejl.png;94;Akryl;
+Akrylplade 3 mm 25 × 37,5 cm, Spejl;3 mm akrylplade. Kan benyttes i lasercutteren, men ikke i CNC-fræseren.;akryl_spejl.png;50;Akryl;
+Finérplade 9 mm, 41 × 60 cm Poppeltræ;Finérplade af poppeltræ. Kan benyttes i CNC-fræseren.;finer.jpg;94;Finér;
+Finérplade 4 mm, 25 × 25 cm Birketræ;Finérplade af birketræ. Kan benyttes i CNC-fræseren.;finer.jpg;19;Finér;
+Finérplade 1 mm, 25 × 50 cm Birketræ - Flyverfinér;1 mm flyverfinér af birketræ. Kan benyttes i lasercutteren og til modelskæring.;finer.jpg;44;Finér;
+Finérplade 9 mm, 38 × 70 cm Birketræ;Finérplade af birketræ. Kan benyttes i CNC-fræseren.;finer.jpg;75;Finér;
+Finérplade 10 mm, 20 × 25 cm Birketræ;Finérplade af birketræ. Kan benyttes i CNC-fræseren.;finer.jpg;25;Finér;
+MDF-plade 2 mm, 35 × 50 cm;MDF-kompositplade. Kan benyttes i lasercutteren og CNC-fræseren.;mdf.png;16;MDF;
+MDF-plade 2 mm, 25 × 35 cm;MDF-kompositplade. Kan benyttes i lasercutteren og CNC-fræseren.;mdf.png;13;MDF;
+MDF-plade 2 mm, 50 × 70 cm;MDF-kompositplade. Kan benyttes i lasercutteren og CNC-fræseren.;mdf.png;31;MDF;
+MDF-plade 3 mm, 25 × 35 cm;MDF-kompositplade. Kan benyttes i lasercutteren og CNC-fræseren.;mdf.png;15;MDF;
+MDF-plade 3 mm, 35 × 50 cm;MDF-kompositplade. Kan benyttes i lasercutteren og CNC-fræseren.;mdf.png;19;MDF;
+MDF-plade 4 mm, 25 × 35 cm;MDF-kompositplade. Kan benyttes i lasercutteren og CNC-fræseren.;mdf.png;18;MDF;
+MDF-plade 10 mm, 50 × 50 cm;10 mm MDF-kompositplade. Kan benyttes i CNC-fræseren.;mdf.png;50;MDF;
+MDF-plade 6 mm, 35 × 50 cm;MDF-kompositplade. Kan benyttes i lasercutteren og CNC-fræseren.;mdf.png;25;MDF;
+MDF-plade 6 mm, 25 × 32 cm;MDF-kompositplade. Kan benyttes i lasercutteren og CNC-fræseren.;mdf.png;21;MDF;
+3D-print – filamentforbrug – pr. 4 gram;Filament til brug på DD Labs 3D-printere. Forbruget i gram kan aflæses på printeren. Del forbruget i gram med 4 for at finde antallet af enheder. Prints, der vejer under 5 gram, er gratis. Kun til brug på labbets maskiner.;filament.jpg;1;3D-print;
+3D-print – resinforbrug – pr. ml;Resin til brug på DD Labs resinprintere. Forbruget opgøres i milliliter. Mængder med decimaler afrundes til nærmeste hele milliliter. Kun til brug på labbets maskiner.;resin.png;1;3D-print;
+Laminatlomme A4;Laminatlommer i A4-format, 80 mikrometer.;laminatlommeA4.png;1;Laminering;
+Laminatlomme A3;Laminatlommer i A3-format, 80 mikrometer.;laminatlommeA4.png;3;Laminering;
+Smart Vinyl – aftagelig, hvid og sort – pr. 10 cm;Aftagelig Smart Vinyl til Cricut-vinylskæreren. Fås i hvid og sort. Udleveres i DD Lab i forbindelse med brug. Betal først, når skæringen er foretaget, og du kender forbruget.;vinyl_aftagelig.png;5;Vinyl og selvklæbende papir;
+Permanent Vinyl – ark på 30 × 30 cm, assorterede farver;Permanent vinyl til Cricut-vinylskæreren. Ark på 30 × 30 cm i aqua, lilla, pink, limegrøn, gul og lyseblå. Udleveres i DD Lab i forbindelse med brug. Betal først, når skæringen er foretaget, og du kender forbruget.;vinyl_permanent_farver.png;20;Vinyl og selvklæbende papir;
+Sticky Paper – A4-ark til print og vinylskæring;Selvklæbende A4-ark til print og skæring på Cricut-vinylskæreren. Fås i transparent, transparent holografisk, hvid og hvid holografisk. Udleveres i DD Lab i forbindelse med brug. Betal først, når skæringen er foretaget, og du kender forbruget.;sticky_paper.png;20;Vinyl og selvklæbende papir;
+Permanent Vinyl – sort – pr. 10 cm;Permanent sort vinyl til Cricut-vinylskæreren. Udleveres i DD Lab i forbindelse med brug. Betal først, når skæringen er foretaget, og du kender forbruget.;vinyl_permanent_sort.png;5;Vinyl og selvklæbende papir;
+Smart Vinyl Permanent – hvid – pr. 10 cm;Permanent hvid Smart Vinyl til Cricut-vinylskæreren. Udleveres i DD Lab i forbindelse med brug. Betal først, når skæringen er foretaget, og du kender forbruget.;vinyl_permanent_hvid.png;5;Vinyl og selvklæbende papir;
