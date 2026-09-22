@@ -1,0 +1,207 @@
+---
+theme: jekyll-theme-minimal
+title: "Materialer og betaling"
+permalink: /materialer/
+---
+<a id="top"></a>
+
+# DD Lab Materialer og betaling
+
+Her kan du få et overblik over materialer i DD Lab og se, hvor mange enheder de koster. **1 enhed svarer til 1 kr.** Enhedsprisen gælder for ét styk af det viste materiale, eksempelvis én plade eller ét ark. Hvis materialet afregnes pr. gram, ml eller længde, står det i navnet.
+
+**Oversigten er ikke en garanti for, at materialerne er på lager. Inden du betaler, skal du få en medarbejder i DD Lab til at bekræfte, at de ønskede materialer er tilgængelige i den mængde, du skal bruge.**
+
+Materialerne udleveres i DD Lab og sendes ikke. Materialer til 3D-print er kun til brug på labbets maskiner.
+
+Hvis du har spørgsmål om materialer eller betaling, så email Rasmus Lunding ([rasl@cc.au.dk](mailto:rasl@cc.au.dk)).
+
+## Sådan betaler du
+
+1. Få en medarbejder i DD Lab til at bekræfte, at de ønskede materialer og mængder er tilgængelige, inden du betaler.
+2. Find materialet i oversigten og se enhedsprisen og den mængde, prisen gælder for.
+3. Beregn, hvor mange enheder du skal betale for. Gang enhedsprisen med antallet af styk eller den angivne mængde, du bruger. For materialer, der afregnes efter vægt eller længde, deler du først dit forbrug med mængden i navnet. Bruger du flere materialer, lægger du enhederne sammen.
+4. Gå til DD Labs fælles betalingspost i AU's webshop. Vælg det samlede antal enheder og betal i webshoppen.
+
+Eksempel: En rød akrylplade på 25 × 25 cm koster 31 enheder. To plader koster derfor 62 enheder, svarende til 62 kr. For vinyl til 5 enheder pr. 10 cm koster 20 cm 10 enheder, svarende til 10 kr.
+
+For akrylrester koster 25 gram 1 enhed, så 50 gram koster 2 enheder. For filament koster 4 gram 1 enhed, så 8 gram koster 2 enheder.
+
+For materialer, der afregnes efter forbrug, skal du først opgøre forbruget. For vinyl og selvklæbende papir betaler du først, når skæringen er foretaget.
+
+**Linket til den fælles betalingspost tilføjes, når posten er oprettet.**
+
+<!-- Tilføj det direkte link til den fælles betalingspost her, når den er oprettet.
+Opdater teksten ovenfor, når betalingslinket er på plads. -->
+
+<br/>
+
+## Kategorier
+
+<nav id="materialekategorier" aria-label="Materialekategorier"></nav>
+
+<br/>
+
+<label for="materialesoegning">Søg efter materiale, størrelse eller farve:</label>
+<input id="materialesoegning" type="search" placeholder="Eksempelvis akryl, 25 × 35 eller rød" style="box-sizing: border-box; width: 100%; margin: 0.5em 0 1em;" />
+<p id="materialestatus" role="status">Henter materialer …</p>
+<div id="tabelsetup" role="region" aria-label="Materialeoversigt"></div>
+<noscript>Slå JavaScript til for at se materialeoversigten, eller <a href="MaterialerTabel.csv">hent materialelisten som CSV</a>.</noscript>
+
+<!--
+MaterialerTabel.csv er UTF-8 og semikolonsepareret med én række pr. materiale.
+Kolonner: Navn;Beskrivelse;Billede;Enhedspris;Kategori;Kilde
+Tilføj et materiale ved at kopiere en række i samme kategori og rette felterne.
+Siden opdaterer oversigten og kategorierne automatisk fra CSV-filen.
+- Navn: Skriv materialets navn, størrelse og eventuelle farve. Prisen gælder
+  ét styk, medmindre navnet angiver andet, fx "Filament – pr. 4 gram" eller
+  "Smart Vinyl – pr. 10 cm". Skriv afregningsmængden her, ikke i et ekstra felt.
+- Beskrivelse: Supplerende oplysninger om brug, varianter og særlige vilkår.
+- Billede: Tomt indtil billeder tilføjes. Herefter et filnavn i materialer/images
+  eller en https-adresse. Et tomt felt viser ingen billedplads.
+- Enhedspris: Skriv antallet af betalingsenheder som et helt tal, fx 4 eller 31.
+  Prisen gælder den mængde, navnet beskriver.
+  1 enhed svarer til 1 kr. Rund kroneprisen til nærmeste hele tal.
+  Halve tal rundes op, fx 12,50 til 13. For materialer med lave priser pr. gram
+  vælges en større mængde i navnet, så enhedsprisen bliver et positivt helt tal.
+  AFVENTER kan bruges til nye materialer, hvis prisen endnu ikke er kendt.
+- Kategori: Danner kategorierne automatisk i rækkefølgen fra CSV-filen.
+- Kilde: Valgfrit link til den oprindelige produktside. Kan efterlades tomt.
+  Bruges kun som reference og vises ikke på siden.
+Felter med semikolon, linjeskift eller anførselstegn skal omsluttes af
+anførselstegn. Anførselstegn inde i et sådant felt skrives dobbelt.
+Kildeudvalg og viste kronepriser kontrolleret 22. september 2026 (36 produkter).
+Enhedspriserne er webshoppens viste priser afrundet til nærmeste hele tal.
+Akrylrester og filament er omregnet til henholdsvis 25 gram og 4 gram pr. enhed
+for at bevare de oprindelige grampriser på 0,04 kr. og 0,25 kr.:
+
+https://auwebshop.au.dk/udstyr?cat=24&hks_subdepartment_id=8&product_list_limit=75
+-->
+
+<script type="text/javascript">
+(function () {
+    var oversigt = document.getElementById("tabelsetup");
+    var kategorier = document.getElementById("materialekategorier");
+    var status = document.getElementById("materialestatus");
+    var soegning = document.getElementById("materialesoegning");
+    var materialer = [];
+
+    function laesCSV(tekst) {
+        var raekker = [], raekke = [], felt = "", citeret = false;
+        tekst = tekst.replace(/^\uFEFF/, "").replace(/\r\n?/g, "\n");
+        for (var i = 0; i < tekst.length; i++) {
+            var tegn = tekst[i];
+            if (tegn === '"') {
+                if (citeret && tekst[i + 1] === '"') {
+                    felt += '"';
+                    i++;
+                } else {
+                    citeret = !citeret;
+                }
+            } else if (!citeret && (tegn === ";" || tegn === "\n")) {
+                raekke.push(felt);
+                felt = "";
+                if (tegn === "\n") {
+                    if (raekke.some(function (vaerdi) { return vaerdi.trim(); })) raekker.push(raekke);
+                    raekke = [];
+                }
+            } else {
+                felt += tegn;
+            }
+        }
+        if (citeret) throw new Error("Uafsluttet CSV-felt");
+        raekke.push(felt);
+        if (raekke.some(function (vaerdi) { return vaerdi.trim(); })) raekker.push(raekke);
+        var kolonner = raekker.shift() || [];
+        var paakraevet = ["Navn", "Beskrivelse", "Billede", "Enhedspris", "Kategori"];
+        if (paakraevet.some(function (navn) { return kolonner.indexOf(navn) === -1; })) {
+            throw new Error("Manglende CSV-kolonner");
+        }
+        return raekker.map(function (vaerdier) {
+            if (vaerdier.length !== kolonner.length) throw new Error("Ugyldig CSV-række");
+            var materiale = {};
+            kolonner.forEach(function (navn, i) { materiale[navn] = vaerdier[i].trim(); });
+            if (!materiale.Navn || !materiale.Kategori) {
+                throw new Error("Manglende materialeoplysninger");
+            }
+            return materiale;
+        });
+    }
+
+    function tilfoej(parent, tag, tekst) {
+        var element = document.createElement(tag);
+        element.textContent = tekst;
+        parent.appendChild(element);
+        return element;
+    }
+
+    // Ignorer accenter i søgningen, men bevar den oprindelige tekst i oversigten.
+    function normaliserSoegning(tekst) {
+        return tekst.toLocaleLowerCase("da").normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    }
+
+    function visMaterialer() {
+        oversigt.textContent = "";
+        kategorier.textContent = "";
+        var soegeord = normaliserSoegning(soegning.value).trim().split(/\s+/);
+        var viste = materialer.filter(function (materiale) {
+            var tekst = normaliserSoegning([materiale.Navn, materiale.Beskrivelse, materiale.Kategori].join(" "));
+            return soegeord.every(function (ord) { return tekst.indexOf(ord) !== -1; });
+        });
+        var grupper = new Map();
+        viste.forEach(function (materiale) {
+            if (!grupper.has(materiale.Kategori)) {
+                var sektion = document.createElement("div");
+                var id = "kategori-" + materialer.map(function (m) { return m.Kategori; }).indexOf(materiale.Kategori);
+                tilfoej(sektion, "h2", materiale.Kategori).id = id;
+                oversigt.appendChild(sektion);
+                var link = tilfoej(kategorier, "a", materiale.Kategori);
+                link.href = "#" + id;
+                kategorier.appendChild(document.createElement("br"));
+                grupper.set(materiale.Kategori, sektion);
+            }
+            var post = document.createElement("article");
+            grupper.get(materiale.Kategori).appendChild(post);
+            tilfoej(post, "h3", materiale.Navn);
+            if (materiale.Billede) {
+                var kilde = materiale.Billede;
+                var url = new URL(/^https:\/\//i.test(kilde) ? kilde : "images/" + kilde, window.location.href);
+                if (url.protocol === "https:" || url.origin === window.location.origin) {
+                    var billede = document.createElement("img");
+                    billede.src = url.href;
+                    billede.alt = materiale.Navn;
+                    billede.loading = "lazy";
+                    billede.style.cssText = "max-width: 200px; width: 100%; height: auto;";
+                    post.appendChild(billede);
+                }
+            }
+            tilfoej(post, "p", materiale.Beskrivelse);
+            var pris = materiale.Enhedspris.replace(",", ".");
+            var prisTekst = "Afventer";
+            if (/^\d+(\.\d+)?$/.test(pris) && Number.isFinite(Number(pris))) {
+                var antal = Number(pris);
+                prisTekst = antal.toLocaleString("da-DK", { maximumFractionDigits: 10 }) + (antal === 1 ? " enhed" : " enheder");
+            }
+            tilfoej(tilfoej(post, "p", ""), "strong", "Pris: " + prisTekst);
+            post.appendChild(document.createElement("hr"));
+        });
+        status.textContent = viste.length ? "Viser " + viste.length + " af " + materialer.length + " materialer." : "Ingen materialer matcher din søgning.";
+    }
+
+    soegning.addEventListener("input", visMaterialer);
+    fetch("MaterialerTabel.csv")
+        .then(function (svar) {
+            if (!svar.ok) throw new Error("Materialelisten kunne ikke hentes");
+            return svar.text();
+        })
+        .then(function (tekst) {
+            materialer = laesCSV(tekst);
+            if (!materialer.length) throw new Error("Materialelisten er tom");
+            visMaterialer();
+        })
+        .catch(function () {
+            status.textContent = "Materialelisten kunne ikke indlæses. Prøv at genindlæse siden, eller kontakt DD Lab.";
+        });
+}());
+</script>
+
+<a href="#top">Gå til toppen</a>

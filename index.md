@@ -4,6 +4,8 @@
     </td>
     <td><h2><a href="/faciliteter-og-udstyr/audiodesign/">Audiodesign<br>Faciliteter og Udstyr</a></h2>
     </td>
+    <td><h2><a href="/faciliteter-og-udstyr/materialer/">Materialer og betaling</a></h2>
+    </td>
   </tr>
 </table>
 
