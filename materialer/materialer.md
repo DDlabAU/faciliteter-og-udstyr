@@ -22,16 +22,13 @@ Hvis du har spørgsmål om materialer eller betaling, så email Rasmus Lunding (
 3. Beregn, hvor mange enheder du skal betale for. Gang enhedsprisen med antallet af styk eller den angivne mængde, du bruger. For materialer, der afregnes efter vægt eller længde, deler du først dit forbrug med mængden i navnet. Bruger du flere materialer, lægger du enhederne sammen.
 4. Gå til DD Labs fælles betalingspost i AU's webshop. Vælg det samlede antal enheder og betal i webshoppen.
 
-Eksempel: En rød akrylplade på 25 × 25 cm koster 31 enheder. To plader koster derfor 62 enheder, svarende til 62 kr. For vinyl til 5 enheder pr. 10 cm koster 20 cm 10 enheder, svarende til 10 kr.
+Eksempel: En rød akrylplade på 25 × 25 cm koster 31 enheder. To plader koster derfor 62 enheder.
 
 For akrylrester koster 25 gram 1 enhed, så 50 gram koster 2 enheder. For filament koster 4 gram 1 enhed, så 8 gram koster 2 enheder.
 
-For materialer, der afregnes efter forbrug, skal du først opgøre forbruget. For vinyl og selvklæbende papir betaler du først, når skæringen er foretaget.
+For materialer, der afregnes efter forbrug, såsom filament eller resin til 3d print, skal du først opgøre forbruget og derefter betale. 
 
 **Linket til den fælles betalingspost tilføjes, når posten er oprettet.**
-
-<!-- Tilføj det direkte link til den fælles betalingspost her, når den er oprettet.
-Opdater teksten ovenfor, når betalingslinket er på plads. -->
 
 <br/>
 
@@ -49,7 +46,7 @@ Opdater teksten ovenfor, når betalingslinket er på plads. -->
 
 <!--
 MaterialerTabel.csv er UTF-8 og semikolonsepareret med én række pr. materiale.
-Kolonner: Navn;Beskrivelse;Billede;Enhedspris;Kategori;Kilde
+Kolonner: Navn;Beskrivelse;Billede;Enhedspris;Kategori;Skjul
 Tilføj et materiale ved at kopiere en række i samme kategori og rette felterne.
 Siden opdaterer oversigten og kategorierne automatisk fra CSV-filen.
 - Navn: Skriv materialets navn, størrelse og eventuelle farve. Prisen gælder
@@ -65,8 +62,9 @@ Siden opdaterer oversigten og kategorierne automatisk fra CSV-filen.
   vælges en større mængde i navnet, så enhedsprisen bliver et positivt helt tal.
   AFVENTER kan bruges til nye materialer, hvis prisen endnu ikke er kendt.
 - Kategori: Danner kategorierne automatisk i rækkefølgen fra CSV-filen.
-- Kilde: Valgfrit link til den oprindelige produktside. Kan efterlades tomt.
-  Bruges kun som reference og vises ikke på siden.
+- Skjul: Lad feltet være tomt for at vise materialet. Skriv ja for at skjule det
+  fra oversigten og søgningen. JA og Ja virker også. Fjern ja for at vise
+  materialet igen. Kategorier uden synlige materialer vises ikke.
 Felter med semikolon, linjeskift eller anførselstegn skal omsluttes af
 anførselstegn. Anførselstegn inde i et sådant felt skrives dobbelt.
 Kildeudvalg og viste kronepriser kontrolleret 22. september 2026 (36 produkter).
@@ -184,7 +182,8 @@ https://auwebshop.au.dk/udstyr?cat=24&hks_subdepartment_id=8&product_list_limit=
             tilfoej(tilfoej(post, "p", ""), "strong", "Pris: " + prisTekst);
             post.appendChild(document.createElement("hr"));
         });
-        status.textContent = viste.length ? "Viser " + viste.length + " af " + materialer.length + " materialer." : "Ingen materialer matcher din søgning.";
+        status.textContent = !materialer.length ? "Der er ingen materialer at vise i øjeblikket." :
+            viste.length ? "Viser " + viste.length + " af " + materialer.length + " materialer." : "Ingen materialer matcher din søgning.";
     }
 
     soegning.addEventListener("input", visMaterialer);
@@ -196,6 +195,10 @@ https://auwebshop.au.dk/udstyr?cat=24&hks_subdepartment_id=8&product_list_limit=
         .then(function (tekst) {
             materialer = laesCSV(tekst);
             if (!materialer.length) throw new Error("Materialelisten er tom");
+            // Filtrer skjulte poster fra før søgning, kategorier og optælling.
+            materialer = materialer.filter(function (materiale) {
+                return (materiale.Skjul || "").trim().toLocaleLowerCase("da") !== "ja";
+            });
             visMaterialer();
         })
         .catch(function () {
