@@ -72,39 +72,6 @@ På meget smalle skærme vises billederne fortsat over beskrivelsen. -->
 </style>
 <noscript>Slå JavaScript til for at se materialeoversigten, eller <a href="MaterialerTabel.csv">hent materialelisten som CSV</a>.</noscript>
 
-<!--
-MaterialerTabel.csv er UTF-8 og semikolonsepareret med én række pr. materiale.
-Kolonner: Navn;Beskrivelse;Billede;Enhedspris;Kategori;Skjul
-Tilføj et materiale ved at kopiere en række i samme kategori og rette felterne.
-Siden opdaterer oversigten og kategorierne automatisk fra CSV-filen.
-- Navn: Skriv materialets navn, størrelse og eventuelle farve. Prisen gælder
-  ét styk, medmindre navnet angiver andet, fx "Filament – pr. 4 gram" eller
-  "Smart Vinyl – pr. 10 cm". Skriv afregningsmængden her, ikke i et ekstra felt.
-- Beskrivelse: Supplerende oplysninger om brug, varianter og særlige vilkår.
-- Billede: Et filnavn i materialer/images eller en https-adresse.
-  Et tomt felt eller et billede, der ikke kan indlæses, viser automatisk
-  images/placeholder.png med teksten "Intet billede".
-  Standardbilledet er hentet fra https://placehold.co og gemt lokalt.
-- Enhedspris: Skriv antallet af betalingsenheder som et helt tal, fx 4 eller 31.
-  Prisen gælder den mængde, navnet beskriver.
-  1 enhed svarer til 1 kr. Rund kroneprisen til nærmeste hele tal.
-  Halve tal rundes op, fx 12,50 til 13. For materialer med lave priser pr. gram
-  vælges en større mængde i navnet, så enhedsprisen bliver et positivt helt tal.
-  AFVENTER kan bruges til nye materialer, hvis prisen endnu ikke er kendt.
-- Kategori: Danner kategorierne automatisk i rækkefølgen fra CSV-filen.
-- Skjul: Lad feltet være tomt for at vise materialet. Skriv ja for at skjule det
-  fra oversigten og søgningen. JA og Ja virker også. Fjern ja for at vise
-  materialet igen. Kategorier uden synlige materialer vises ikke.
-Felter med semikolon, linjeskift eller anførselstegn skal omsluttes af
-anførselstegn. Anførselstegn inde i et sådant felt skrives dobbelt.
-Kildeudvalg og viste kronepriser kontrolleret 22. september 2026 (36 produkter).
-Enhedspriserne er webshoppens viste priser afrundet til nærmeste hele tal.
-Akrylrester og filament er omregnet til henholdsvis 25 gram og 4 gram pr. enhed
-for at bevare de oprindelige grampriser på 0,04 kr. og 0,25 kr.:
-
-https://auwebshop.au.dk/udstyr?cat=24&hks_subdepartment_id=8&product_list_limit=75
--->
-
 <script type="text/javascript">
 (function () {
     var oversigt = document.getElementById("tabelsetup");
