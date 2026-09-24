@@ -5,7 +5,7 @@ permalink: /materialer/
 ---
 <a id="top"></a>
 
-# DD Lab Materialer og betaling
+# Materialer og betaling
 
 Her kan du få et overblik over materialer i DD Lab og se, hvor mange enheder de koster. **1 enhed svarer til 1 kr.** Enhedsprisen gælder for ét styk af det viste materiale, eksempelvis én plade eller ét ark. Hvis materialet afregnes pr. gram, ml eller længde, står det i navnet.
 
