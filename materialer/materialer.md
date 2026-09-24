@@ -41,7 +41,35 @@ For materialer, der afregnes efter forbrug, såsom filament eller resin til 3d p
 <label for="materialesoegning">Søg efter materiale, størrelse eller farve:</label>
 <input id="materialesoegning" type="search" placeholder="Eksempelvis akryl, 25 × 35 eller rød" style="box-sizing: border-box; width: 100%; margin: 0.5em 0 1em;" />
 <p id="materialestatus" role="status">Henter materialer …</p>
-<div id="tabelsetup" role="region" aria-label="Materialeoversigt"></div>
+<!-- Billedplacering: Skift "venstre" til "over" nedenfor for at gendanne det tidligere layout.
+På meget smalle skærme vises billederne fortsat over beskrivelsen. -->
+<div id="tabelsetup" role="region" aria-label="Materialeoversigt" data-billedplacering="venstre"></div>
+
+<style>
+@media (min-width: 361px) {
+    #tabelsetup[data-billedplacering="venstre"] .materiale-med-billede {
+        display: grid;
+        grid-template-columns: minmax(0, 30%) minmax(0, 1fr);
+        column-gap: 20px;
+        align-items: start;
+    }
+    #tabelsetup[data-billedplacering="venstre"] .materiale-med-billede > h3,
+    #tabelsetup[data-billedplacering="venstre"] .materiale-med-billede > p {
+        grid-column: 2;
+    }
+    #tabelsetup[data-billedplacering="venstre"] .materiale-med-billede > img {
+        grid-column: 1;
+        grid-row: 1 / span 3;
+        max-height: 200px;
+        object-fit: contain;
+        object-position: top left;
+    }
+    #tabelsetup[data-billedplacering="venstre"] .materiale-med-billede > hr {
+        grid-column: 1 / -1;
+        width: 100%;
+    }
+}
+</style>
 <noscript>Slå JavaScript til for at se materialeoversigten, eller <a href="MaterialerTabel.csv">hent materialelisten som CSV</a>.</noscript>
 
 <!--
@@ -53,8 +81,10 @@ Siden opdaterer oversigten og kategorierne automatisk fra CSV-filen.
   ét styk, medmindre navnet angiver andet, fx "Filament – pr. 4 gram" eller
   "Smart Vinyl – pr. 10 cm". Skriv afregningsmængden her, ikke i et ekstra felt.
 - Beskrivelse: Supplerende oplysninger om brug, varianter og særlige vilkår.
-- Billede: Tomt indtil billeder tilføjes. Herefter et filnavn i materialer/images
-  eller en https-adresse. Et tomt felt viser ingen billedplads.
+- Billede: Et filnavn i materialer/images eller en https-adresse.
+  Et tomt felt eller et billede, der ikke kan indlæses, viser automatisk
+  images/placeholder.png med teksten "Intet billede".
+  Standardbilledet er hentet fra https://placehold.co og gemt lokalt.
 - Enhedspris: Skriv antallet af betalingsenheder som et helt tal, fx 4 eller 31.
   Prisen gælder den mængde, navnet beskriver.
   1 enhed svarer til 1 kr. Rund kroneprisen til nærmeste hele tal.
@@ -160,17 +190,22 @@ https://auwebshop.au.dk/udstyr?cat=24&hks_subdepartment_id=8&product_list_limit=
             var post = document.createElement("article");
             grupper.get(materiale.Kategori).appendChild(post);
             tilfoej(post, "h3", materiale.Navn);
-            if (materiale.Billede) {
-                var kilde = materiale.Billede;
-                var url = new URL(/^https:\/\//i.test(kilde) ? kilde : "images/" + kilde, window.location.href);
-                if (url.protocol === "https:" || url.origin === window.location.origin) {
-                    var billede = document.createElement("img");
-                    billede.src = url.href;
-                    billede.alt = materiale.Navn;
-                    billede.loading = "lazy";
-                    billede.style.cssText = "max-width: 200px; width: 100%; height: auto;";
-                    post.appendChild(billede);
-                }
+            var kilde = materiale.Billede || "placeholder.png";
+            var url = new URL(/^https:\/\//i.test(kilde) ? kilde : "images/" + kilde, window.location.href);
+            if (url.protocol === "https:" || url.origin === window.location.origin) {
+                var billede = document.createElement("img");
+                billede.alt = materiale.Billede ? materiale.Navn : "Intet billede af " + materiale.Navn;
+                billede.onerror = function () {
+                    // Forsøg kun én gang, hvis standardbilledet også mangler.
+                    this.onerror = null;
+                    this.alt = "Intet billede af " + materiale.Navn;
+                    this.src = new URL("images/placeholder.png", window.location.href).href;
+                };
+                billede.src = url.href;
+                billede.loading = "lazy";
+                billede.style.cssText = "max-width: 200px; width: 100%; height: auto;";
+                post.appendChild(billede);
+                post.className = "materiale-med-billede";
             }
             tilfoej(post, "p", materiale.Beskrivelse);
             var pris = materiale.Enhedspris.replace(",", ".");
