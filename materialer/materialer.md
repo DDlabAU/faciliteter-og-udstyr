@@ -19,8 +19,8 @@ Hvis du har spørgsmål om materialer eller betaling, så email Rasmus Lunding (
 
 1. Få en medarbejder i DD Lab til at bekræfte, at de ønskede materialer og mængder er tilgængelige, inden du betaler.
 2. Find materialet i oversigten og se enhedsprisen og den mængde, prisen gælder for.
-3. Beregn, hvor mange enheder du skal betale for. Gang enhedsprisen med antallet af styk eller den angivne mængde, du bruger. For materialer, der afregnes efter vægt eller længde, deler du først dit forbrug med mængden i navnet. Bruger du flere materialer, lægger du enhederne sammen.
-4. Gå til DD Labs fælles betalingspost i AU's webshop. Vælg det samlede antal enheder og betal i webshoppen.
+3. Beregn, hvor mange enheder du skal betale for. <br> Gang enhedsprisen med antallet af styk eller den angivne mængde, du bruger. <br> For materialer, der afregnes efter vægt eller længde, deler du først dit forbrug med mængden i navnet. Bruger du flere materialer, lægger du enhederne sammen.
+4. Gå til DD Labs [fælles betalingspost i AU's webshop](https://ddlab.au.dk/betaling). <br> Vælg det samlede antal enheder og betal i webshoppen.
 
 Eksempel: En rød akrylplade på 25 × 25 cm koster 31 enheder. To plader koster derfor 62 enheder.
 
@@ -28,7 +28,7 @@ For akrylrester koster 25 gram 1 enhed, så 50 gram koster 2 enheder. For filame
 
 For materialer, der afregnes efter forbrug, såsom filament eller resin til 3d print, skal du først opgøre forbruget og derefter betale. 
 
-**Linket til den fælles betalingspost tilføjes, når posten er oprettet.**
+[https://ddlab.au.dk/betaling](https://ddlab.au.dk/betaling)
 
 <br/>
 
