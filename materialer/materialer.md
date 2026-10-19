@@ -176,7 +176,7 @@ På meget smalle skærme vises billederne fortsat over beskrivelsen. -->
             }
             tilfoej(post, "p", materiale.Beskrivelse);
             var pris = materiale.Enhedspris.replace(",", ".");
-            var prisTekst = "Afventer";
+            var prisTekst = materiale.Enhedspris || "Afventer";
             if (/^\d+(\.\d+)?$/.test(pris) && Number.isFinite(Number(pris))) {
                 var antal = Number(pris);
                 prisTekst = antal.toLocaleString("da-DK", { maximumFractionDigits: 10 }) + (antal === 1 ? " enhed" : " enheder");
