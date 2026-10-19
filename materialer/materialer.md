@@ -11,7 +11,7 @@ Her kan du få et overblik over materialer i DD Lab og se, hvor mange enheder de
 
 **Oversigten er ikke en garanti for, at materialerne er på lager. Inden du betaler, skal du få en medarbejder i DD Lab til at bekræfte, at de ønskede materialer er tilgængelige i den mængde, du skal bruge.**
 
-Materialerne udleveres i DD Lab og sendes ikke. Materialer til 3D-print er kun til brug på labbets maskiner.
+Materialerne udleveres i DD Lab og sendes ikke. Materialerne er kun til brug på lab'ets maskiner.
 
 Hvis du har spørgsmål om materialer eller betaling, så email Rasmus Lunding ([rasl@cc.au.dk](mailto:rasl@cc.au.dk)).
 
